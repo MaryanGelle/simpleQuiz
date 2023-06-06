@@ -103,3 +103,26 @@ label {
     margin: 30px auto;
 
 }
+
+.btn{
+    background: #fff;
+    color: #333;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+}
+
+.btn:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
