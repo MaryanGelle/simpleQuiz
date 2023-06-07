@@ -7,10 +7,10 @@ h1.innerText = `Welcome to the Quiz ${username}`;
 // the  index starts from 0
 // The first element lies at index zero
 
-const questions = [
+const quizdata = [
     {
-        questionText: "What is 2 + 2?",
-        choices: [
+        question: "What is 2 + 2?",
+        answers: [
             { text: '8', isCorrect: false },
             { text: '6', isCorrect: false },
             { text: '4', isCorrect: true },
@@ -19,9 +19,8 @@ const questions = [
 
     },
     {
-        questionText: "What is the capital city of France?",
-        image: "images/paris.jpg",
-        choices: [
+        question: "What is the capital city of France?",
+        answers: [
             { text: 'London', isCorrect: false },
             { text: 'Berlin', isCorrect: false },
             { text: 'Paris', isCorrect: true },
@@ -33,8 +32,8 @@ const questions = [
 
     },
     {
-        questionText: "What is the capital city of Tounisia?",
-        choices: [
+        question: "What is the capital city of Tunisia?",
+        answers: [
             { text: 'Agadir', isCorrect: false },
             { text: 'Tounis', isCorrect: true },
             { text: 'Leroun', isCorrect: false },
@@ -44,8 +43,8 @@ const questions = [
 
     },
     {
-        questionText: "Who wrote the play of Romeo and Juliet?",
-        choices: [
+        question: "Who wrote the play of Romeo and Juliet?",
+        answers: [
             { text: 'Oscar Wild', isCorrect: false },
             { text: 'James Austin', isCorrect: false },
             { text: 'William Shakespear', isCorrect: true },
@@ -55,10 +54,10 @@ const questions = [
 
     },
     {
-        questionText: "Who painted the Mona Lisa?",
-        choices: [
-            { text: 'VINCENT VAN GOGH', isCorrect: false },
-            { text: 'LÉONARD DE VINCI', isCorrect: true },
+        question: "Who painted the Mona Lisa?",
+        answers: [
+            { text: 'Vincent van Gogh', isCorrect: false },
+            { text: 'Leonardo da Vinci', isCorrect: true },
             { text: 'Pablo Picasso', isCorrect: false },
             { text: 'Jackson Pollock', isCorrect: false },
         ]
@@ -66,12 +65,12 @@ const questions = [
 
     },
     {
-        questionText: "What is your body's largest organ",
-        choices: [
+        question: "What is your body's largest organ",
+        answers: [
             { text: 'Brain', isCorrect: false },
             { text: 'Heart', isCorrect: false },
             { text: 'Body', isCorrect: false },
-            { text: 'skin', isCorrect: true },
+            { text: 'Skin', isCorrect: true },
         ]
 
 
@@ -83,12 +82,13 @@ const questions = [
 
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
+const nextButton = document.getElementById("next-btn");
 
 let currentQuestionIndex = 0;
 let score = 0;
 
 
-function startQiuz() {
+function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
@@ -96,20 +96,23 @@ function startQiuz() {
 }
 
 function showQuestion() {
-    let currentQuestion = questions[currentQuestionIndex];
+    let currentQuestion = quizdata[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
-    questionElement.innerHTML = questionNo + ". " + currentQuestion.questionText;
+    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
-    currentQuestion.choices.forEach(choice => {
+    currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
-        button.innerHTML = choice.text;
+        button.innerHTML = answer.text;
         button.classList.add("btn");
         answerButtons.appendChild(button);
     });
+
+
 }
 
 
 startQuiz();
+
 
 
 
