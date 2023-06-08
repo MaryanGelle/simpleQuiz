@@ -213,7 +213,16 @@ function showScore() {
     scoreElement.innerHTML = `Score: ${score} out of ${quizdata.length}`;
     scoreElement.style.display = "block";
 
-    playAgainButton.style.display = "block";
+    // Show the start button when the result is displayed
+    document.getElementById("start-btn").style.display = "block";
+
+    const startButton = document.getElementById("start-btn");
+
+    startButton.addEventListener("click", function () {
+        window.location.href = "index.html";
+    });
+
+
 
 }
 
