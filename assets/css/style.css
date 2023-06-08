@@ -130,10 +130,6 @@ label {
 
 }
 
-.btn:hover {
-    background-color: #4CAF50;
-    color: white;
-}
 
 #next-btn {
     background: #fff;
@@ -145,4 +141,21 @@ label {
     border-radius: 4px;
     cursor: pointer;
     display: none;
+}
+
+.true {
+    background: yellow;
+
+}
+
+.false {
+    background: red;
+
+}
+
+#score {
+    color: gold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
 }
