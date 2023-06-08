@@ -231,24 +231,19 @@ function showScore() {
     answerButtons.innerHTML = "";
     nextButton.style.display = "none";
 
-
     // Declare and assign the scoreElement
     const scoreElement = document.getElementById("score");
     scoreElement.innerHTML = `Score: ${score} out of ${quizdata.length}`;
     scoreElement.style.display = "block";
 
-    const playAgainButton = document.createElement("button");
-    playAgainButton.innerHTML = "Play Again";
-    playAgainButton.id = "play-again-btn";
-    playAgainButton.addEventListener("click", startQuiz);
-
-    const quizContainer = document.getElementById("quiz-container");
-    quizContainer.appendChild(playAgainButton);
-
+    playAgainButton.style.display = "block";
 
 }
 
 startQuiz();
+
+
+
 
 
 
