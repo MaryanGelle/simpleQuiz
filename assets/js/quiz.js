@@ -100,15 +100,59 @@ function showQuestion() {
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
+    answerButtons.innerHTML = ""; // Clear previous answer buttons
+
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
         button.innerHTML = answer.text;
         button.classList.add("btn");
         answerButtons.appendChild(button);
+
+        button.addEventListener("click", () => {
+            if (answer.isCorrect) {
+                button.classList.add("true");
+                score++;
+            } else {
+                button.classList.add("false");
+            }
+            disableAnswerButtons();
+            showNextButton();
+        });
     });
 
 
+    if (currentQuestionIndex === quizdata.length - 1) {
+        nextButton.innerHTML = "Finish";
+    }
+
+    nextButton.style.display = "none"; // Hide the next button
 }
+
+function showNextButton() {
+    nextButton.style.display = "block"; // Show the next button
+}
+
+function disableAnswerButtons() {
+    const buttons = answerButtons.getElementsByTagName("button");
+    for (let i = 0; i < buttons.length; i++) {
+        buttons[i].disabled = true; // Disable answer buttons
+    }
+}
+
+nextButton.addEventListener("click", () => {
+    currentQuestionIndex++;
+
+    if (currentQuestionIndex < quizdata.length) {
+        showQuestion();
+    } else {
+        // Quiz finished, display score or perform other actions
+        // You can customize this part according to your requirements
+        questionElement.innerHTML = "Quiz Finished!";
+        answerButtons.innerHTML = "";
+        nextButton.style.display = "none";
+        console.log("Score:", score);
+    }
+});
 
 
 startQuiz();
