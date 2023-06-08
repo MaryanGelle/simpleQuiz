@@ -130,6 +130,7 @@ const quizdata = [
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+const scoreElement = document.getElementById("score");
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -189,31 +190,6 @@ function disableAnswerButtons() {
     }
 }
 
-function selectAnswer(isCorrect, button) {
-    if (isCorrect) {
-        button.classList.add("true");
-        score++;
-    } else {
-        button.classList.add("false");
-    }
-    disableAnswerButtons();
-    showNextButton();
-}
-
-nextButton.addEventListener("click", () => {
-    currentQuestionIndex++;
-
-    if (currentQuestionIndex < quizdata.length) {
-        showQuestion();
-    } else {
-        // Quiz finished, display score or perform other actions
-        // You can customize this part according to your requirements
-        questionElement.innerHTML = "Quiz Finished!";
-        answerButtons.innerHTML = "";
-        nextButton.style.display = "none";
-        console.log("Score:", score);
-    }
-});
 
 nextButton.addEventListener("click", () => {
     currentQuestionIndex++;
@@ -241,7 +217,6 @@ function showScore() {
 }
 
 startQuiz();
-
 
 
 
