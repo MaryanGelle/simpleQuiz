@@ -76,8 +76,28 @@ label {
     cursor: pointer;
     text-decoration: none;
     text-align: center;
+    flex-basis: 45%;
 
 }
+
+.instruction-button {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: blue;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    flex-basis: 45;
+
+
+}
+
 
 .start-button:hover {
     background-color: #45a049;
@@ -154,18 +174,9 @@ label {
     display: none;
 }
 
-#start-btn {
-    background: grey;
-    color: #fff;
-    font-weight: 500;
-    width: 150px;
-    padding: 10px;
-    margin: 30px auto 10px;
-    border-radius: 4px;
-    cursor: pointer;
-    display: none;
 
-}
+
+
 
 .true {
     background: yellow;
