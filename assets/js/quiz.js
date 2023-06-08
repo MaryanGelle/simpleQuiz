@@ -176,6 +176,7 @@ function showQuestion() {
     nextButton.style.display = "none"; // Hide the next button
 }
 
+
 function showNextButton() {
     nextButton.style.display = "block"; // Show the next button
 
@@ -215,6 +216,8 @@ function showScore() {
     playAgainButton.style.display = "block";
 
 }
+
+
 
 startQuiz();
 

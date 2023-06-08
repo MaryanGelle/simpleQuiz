@@ -6,15 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>General Quiz</title>
+    <link rel="icon" href="book.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
+
+
 
 </head>
 
 <body>
-    <h1 id="welcome-h1"></h1>
+
     <div class="quiz-container" id="quiz">
 
         <div class="question-header">
+            <h1 id="welcome-h1"></h1>
             <h2 id="question">Question is such...</h2>
 
             <div id="answer-buttons" class="btn-grid">
@@ -27,14 +31,18 @@
         </div>
         <div class="controls">
             <button id="next-btn">Next</button>
+            <button id="start-btn"> Start</button>
         </div>
         <div id="score"></div> <!-- Score display element-->
     </div>
 
+    <audio id="sound">
+        <source src="correct-choice.mp3" />
+    </audio>
 
-
-
-
+    <audio id="wrongSound">
+        <source src="negative_beeps.mp3" />
+    </audio>
 
     <script src="assets/js/quiz.js">
 
