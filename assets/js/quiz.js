@@ -213,6 +213,9 @@ function showScore() {
     scoreElement.innerHTML = `Score: ${score} out of ${quizdata.length}`;
     scoreElement.style.display = "block";
 
+
+
+
     // Show the start button when the result is displayed
     document.getElementById("start-btn").style.display = "block";
 
@@ -220,11 +223,11 @@ function showScore() {
     const instructionButton = document.getElementById("instruction-button");
 
     startButton.addEventListener("click", function () {
-        window.location.href = "index.html";
+        window.location.href = "/index.html";
     });
 
     instructionButton.addEventListener("click", function () {
-        window.location.href = "instructions.html";
+        window.location.href = "/instructions.html";
     });
 
 
