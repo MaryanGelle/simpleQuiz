@@ -215,16 +215,35 @@ nextButton.addEventListener("click", () => {
     }
 });
 
+nextButton.addEventListener("click", () => {
+    currentQuestionIndex++;
+
+    if (currentQuestionIndex < quizdata.length) {
+        showQuestion();
+    } else {
+        // Quiz finished, display score
+        showScore();
+    }
+});
+
 function showScore() {
-    questionElement.innerHTML = "Quiz Finished!";
+    questionElement.innerHTML = "Thank you for playing!";
     answerButtons.innerHTML = "";
     nextButton.style.display = "none";
-    scoreElement.innerHTML = "Score:" + score;
+
 
     // Declare and assign the scoreElement
     const scoreElement = document.getElementById("score");
-    scoreElement.innerHTML = "Score: " + score;
+    scoreElement.innerHTML = `Score: ${score} out of ${quizdata.length}`;
     scoreElement.style.display = "block";
+
+    const playAgainButton = document.createElement("button");
+    playAgainButton.innerHTML = "Play Again";
+    playAgainButton.id = "play-again-btn";
+    playAgainButton.addEventListener("click", startQuiz);
+
+    const quizContainer = document.getElementById("quiz-container");
+    quizContainer.appendChild(playAgainButton);
 
 
 }
