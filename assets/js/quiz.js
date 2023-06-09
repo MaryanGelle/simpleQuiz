@@ -251,13 +251,7 @@ function oneclick(isCorrect) {
     }
 }
 
-//    <audio id="sound">
-//         <source src="correct-choice.mp3">
-//     </audio>
 
-//     <audio id="wrongSound">
-//         <source src="negative_beeps.mp3">
-//     </audio>;
 
 startQuiz();
 
