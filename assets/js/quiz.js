@@ -1,5 +1,8 @@
 const username = JSON.parse(localStorage.getItem('username'));
-
+const sound = document.getElementById("sound");
+const wrongSound = document.getElementById("wrongSound");
+console.log(sound);
+console.log(wrongSound);
 const h1 = document.getElementById('welcome-h1');
 
 h1.innerText = `Welcome to the Quiz ${username}`;
@@ -160,8 +163,11 @@ function showQuestion() {
             if (answer.isCorrect) {
                 button.classList.add("true");
                 score++;
+                sound.play();
             } else {
                 button.classList.add("false");
+                wrongSound.play();
+
             }
             disableAnswerButtons();
             showNextButton();
@@ -231,7 +237,27 @@ function showScore() {
 
 }
 
+// Creating sound effect for true or false answer
 
+
+function oneclick(isCorrect) {
+    if (isCorrect) {
+        console.log('correct sound');
+        sound.play(); // Play the correct sound
+    } else {
+        console.log('wrong sound');
+
+        wrongSound.play(); // Play the wrong sound
+    }
+}
+
+//    <audio id="sound">
+//         <source src="correct-choice.mp3">
+//     </audio>
+
+//     <audio id="wrongSound">
+//         <source src="negative_beeps.mp3">
+//     </audio>;
 
 startQuiz();
 
