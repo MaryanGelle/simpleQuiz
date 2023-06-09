@@ -220,14 +220,14 @@ function showScore() {
     document.getElementById("start-btn").style.display = "block";
 
     const startButton = document.getElementById("start-btn");
-    const instructionButton = document.getElementById("instruction-button");
+
 
     startButton.addEventListener("click", function () {
         window.location.href = "/index.html";
     });
 
     instructionButton.addEventListener("click", function () {
-        window.location.href = "/instructions.html";
+        window.location.href = "/workspaces/simplequiz/instructions.html";
     });
 
 
