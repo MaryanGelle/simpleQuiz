@@ -226,9 +226,6 @@ function showScore() {
         window.location.href = "/index.html";
     });
 
-    instructionButton.addEventListener("click", function () {
-        window.location.href = "/workspaces/simplequiz/instructions.html";
-    });
 
 
 
