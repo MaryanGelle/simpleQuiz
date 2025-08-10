@@ -1,6 +1,5 @@
 const username = JSON.parse(localStorage.getItem('username'));
-const muteSound= document.getElementById('soundBtn');
-const correctSound = document.getElementById("correcteSound");
+const sound = document.getElementById("correctSound");
 const wrongSound = document.getElementById("wrongSound");
 console.log(sound);
 console.log(wrongSound);
@@ -248,15 +247,6 @@ function oneclick(isCorrect) {
         wrongSound.play(); // Play the wrong sound
     }
 }
-
-let isMuted = false;
-muteSound.addEventListener('click', () => {
-  isMuted = !isMuted;
-  correctSound.muted = isMuted;
-  wrongSound.muted = isMuted;
-  soundBtn.textContent = isMuted ? '🔇' : '🔊';
-});
-
 // Volume slider
 const volumeSlider = document.querySelector('#volumeSlider');
 volumeSlider.value = sound.volume = wrongSound.volume = 1;
