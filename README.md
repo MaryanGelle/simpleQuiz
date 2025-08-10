@@ -8,7 +8,9 @@ We welcome you to your new favorite game website that will test your knowledge. 
 
 <a id="contents"></a>
 
-## Table of Contents
+# Contents
+
+* [*User Experience UX**] (#user-experience-ux>)
 
 - [User Experience UX](#user-experience-ux)
 - [Features](#features)

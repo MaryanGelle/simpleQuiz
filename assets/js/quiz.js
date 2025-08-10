@@ -3,7 +3,7 @@ const sound = document.getElementById("sound");
 const wrongSound = document.getElementById("wrongSound");
 console.log(sound);
 console.log(wrongSound);
-const h1 = document.getElementById('welcome-h1');
+const h1 = document.getElementById('welcome-h1');''
 
 h1.innerText = `Welcome to the Quiz ${username}`;
 // Array have indexes
