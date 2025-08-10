@@ -10,7 +10,7 @@ We welcome you to your new favorite game website that will test your knowledge. 
 
 # Contents
 
-* [**User Experience UX**] (<#user-experience-ux>)
+* [**User Experience UX**](#user-experience-ux)
 
 
 - [Features](#features)
