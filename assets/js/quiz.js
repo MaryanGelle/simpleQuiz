@@ -261,8 +261,8 @@ wrongSound.volume = 1;
 
 // Update volumes when slider changes
 volumeSlider.oninput = function () {
-    sound.volume = this.ariaValueMax;
-    wrongSound.volume = this.ariaValueMax;
+    sound.volume = this.value;
+    wrongSound.volume = this.value;
 };
 
 startQuiz();
