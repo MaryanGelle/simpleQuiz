@@ -60,7 +60,7 @@ The player's username will only be visable to their players game session, this w
 
 Below you will find the features used in my quiz game project. The value the features in my project and why its useful function for the quiz game. 
 
-## Current Features
+## Existing Features
 
 - ## Home-page
   * Welcoming users to the page and request to choose a username for the game. 
@@ -98,6 +98,11 @@ Below you will find the features used in my quiz game project. The value the fea
   * A thank you text to thank the users for their engagement. It serves the purpose to make the users feel valued for their time and aknowledged for participating. 
   * A score text which allows users to see their final score for the game. It serves the purpose to motivate users to play again and if needed to score better next time. 
   * A play again button is created to offer users the ability to play again and restart the game. It encourages replaybility for users to play again and an opportunity for continued learning. 
+
+  - ## Sound Controls
+
+  - ## Sound Menu
+
   
 ![score](assets/images/final.png)
 
