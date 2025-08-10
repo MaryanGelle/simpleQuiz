@@ -268,6 +268,34 @@ startQuiz();
 
 
 
+// Example: update score
+const scoreSpan = document.getElementById('score');
+let score = 0;
+function updateScore(newScore) {
+  score = newScore;
+  scoreSpan.textContent = score;
+}
+
+// Example: simple timer counting seconds
+const timerSpan = document.getElementById('timer');
+let seconds = 0;
+let timerInterval;
+
+function startTimer() {
+  timerInterval = setInterval(() => {
+    seconds++;
+    const mins = String(Math.floor(seconds / 60)).padStart(2, '0');
+    const secs = String(seconds % 60).padStart(2, '0');
+    timerSpan.textContent = `${mins}:${secs}`;
+  }, 1000);
+}
+
+function stopTimer() {
+  clearInterval(timerInterval);
+}
+
+// Start timer when quiz starts, stop on end, etc.
+// updateScore whenever user answers right
 
 
 
