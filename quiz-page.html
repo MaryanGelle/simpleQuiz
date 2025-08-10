@@ -46,6 +46,17 @@
         <source src="negative_beeps.mp3">
     </audio>
 
+    <audio id="correctSound" src="correct-choice.mp3" preload="auto"></audio>
+    <audio id="wrongSound" src="negative_beeps.mp3" preload="auto"></audio>
+    
+
+    <!--Sound control-->
+    <div class="sound-control">
+     <!-- Volume Icon-->
+      <button id="soundBtn">🔊</button>
+      <input id="volumeSlider" type="range" min="0" max="1" step="0.1" value="1">
+    </div>
+
 
 
     <script src="assets/js/quiz.js">

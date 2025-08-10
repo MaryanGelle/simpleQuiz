@@ -1,5 +1,5 @@
 const username = JSON.parse(localStorage.getItem('username'));
-const sound = document.getElementById("sound");
+const sound = document.getElementById("correctSound");
 const wrongSound = document.getElementById("wrongSound");
 console.log(sound);
 console.log(wrongSound);
@@ -233,8 +233,6 @@ function showScore() {
     });
 
 
-
-
 }
 
 // Creating sound effect for true or false answer
@@ -246,24 +244,25 @@ function oneclick(isCorrect) {
         sound.play(); // Play the correct sound
     } else {
         console.log('wrong sound');
-
         wrongSound.play(); // Play the wrong sound
     }
 }
-
 // Volume slider
-const volumeSlider = document.getElementById('volumeSlider');
+const volumeSlider = document.querySelector('#volumeSlider');
+volumeSlider.value = sound.volume = wrongSound.volume = 1;
 
 // Initial volume for sounds
-sound.volume = 1;
-wrongSound.volume = 1;
+// sound.volume = 1;
+// wrongSound.volume = 1; // 
 
 
 // Update volumes when slider changes
-volumeSlider.oninput = function () {
-    sound.volume = this.value;
-    wrongSound.volume = this.value;
-};
+volumeSlider.addEventListener('change', (e) => {
+    const volume = Number(e.target.value);
+    sound.volume = volume;
+    wrongSound.volume = volume;
+    console.log('Volume change to: ', volume);
+});
 
 startQuiz();
 
