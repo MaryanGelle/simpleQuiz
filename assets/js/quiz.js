@@ -251,6 +251,14 @@ function oneclick(isCorrect) {
     }
 }
 
+// Volume slider
+const volumeSlider = document.getElementById('volumeSlider');
+
+// Initial volume for sounds
+sound.volume = 1;
+wrongSound.volume = 1;
+
+
 
 
 startQuiz();
