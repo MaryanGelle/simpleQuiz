@@ -130,6 +130,18 @@ const quizdata = [
 
 ];
 
+// Shuffle function (Fisher-Yates shuffle)
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+// New global shuffled questions array
+let shuffledQuizData = [];
+
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
@@ -144,6 +156,10 @@ function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
+
+      // Create a new shuffled copy of quizdata on every quiz start
+    shuffledQuizData = shuffle([...quizdata]);
+
     showQuestion();
     if (timerLoop) clearInterval(timerLoop);
     timerLoop = setInterval(() => {
@@ -159,7 +175,7 @@ function update_score() {
 }
 
 function showQuestion() {
-    let currentQuestion = quizdata[currentQuestionIndex];
+    let currentQuestion = shuffledQuizData[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
@@ -188,7 +204,7 @@ function showQuestion() {
     });
 
 
-    if (currentQuestionIndex === quizdata.length - 1) {
+    if (currentQuestionIndex === shuffledQuizData.length - 1) {
         nextButton.innerHTML = "Finish";
     }
 
@@ -214,7 +230,7 @@ function disableAnswerButtons() {
 nextButton.addEventListener("click", () => {
     currentQuestionIndex++;
 
-    if (currentQuestionIndex < quizdata.length) {
+    if (currentQuestionIndex < shuffledQuizData.length) {
         showQuestion();
     } else {
         // Quiz finished, display score
@@ -230,7 +246,7 @@ function showScore() {
 
     // Declare and assign the scoreElement
     const scoreElement = document.getElementById("score");
-    scoreElement.innerHTML = `Score: ${score} out of ${quizdata.length}`;
+    scoreElement.innerHTML = `Score: ${score} out of ${shuffledQuizData.length}`;
     scoreElement.style.display = "block";
 
 
