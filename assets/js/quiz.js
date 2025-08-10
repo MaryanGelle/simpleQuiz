@@ -123,10 +123,96 @@ const quizdata = [
 
 
     },
-
-
-
-
+   { 
+        question: "What is the largest planet in our Solar System?",
+        answers: [
+            { text: 'Earth', isCorrect: false },
+            { text: 'Jupiter', isCorrect: true },
+            { text: 'Saturn', isCorrect: false },
+            { text: 'Mars', isCorrect: false },
+        ]
+    },
+    {
+        question: "Who wrote the theory of relativity?",
+        answers: [
+            { text: 'Isaac Newton', isCorrect: false },
+            { text: 'Albert Einstein', isCorrect: true },
+            { text: 'Galileo Galilei', isCorrect: false },
+            { text: 'Nikola Tesla', isCorrect: false },
+        ]
+    },
+    {
+        question: "What is the capital city of Australia?",
+        answers: [
+            { text: 'Sydney', isCorrect: false },
+            { text: 'Melbourne', isCorrect: false },
+            { text: 'Canberra', isCorrect: true },
+            { text: 'Perth', isCorrect: false },
+        ]
+    },
+    {
+        question: "How many elements are there in the periodic table (as of 2025)?",
+        answers: [
+            { text: '118', isCorrect: true },
+            { text: '110', isCorrect: false },
+            { text: '120', isCorrect: false },
+            { text: '112', isCorrect: false },
+        ]
+    },
+    {
+        question: "Which organ in the human body is primarily responsible for detoxification?",
+        answers: [
+            { text: 'Kidneys', isCorrect: false },
+            { text: 'Liver', isCorrect: true },
+            { text: 'Lungs', isCorrect: false },
+            { text: 'Pancreas', isCorrect: false },
+        ]
+    },
+    {
+        question: "In what year did World War II end?",
+        answers: [
+            { text: '1940', isCorrect: false },
+            { text: '1945', isCorrect: true },
+            { text: '1939', isCorrect: false },
+            { text: '1950', isCorrect: false },
+        ]
+    },
+    {
+        question: "What is the chemical formula for water?",
+        answers: [
+            { text: 'CO2', isCorrect: false },
+            { text: 'H2O', isCorrect: true },
+            { text: 'NaCl', isCorrect: false },
+            { text: 'O2', isCorrect: false },
+        ]
+    },
+    {
+        question: "Which continent is the Sahara Desert located in?",
+        answers: [
+            { text: 'Asia', isCorrect: false },
+            { text: 'Africa', isCorrect: true },
+            { text: 'Australia', isCorrect: false },
+            { text: 'South America', isCorrect: false },
+        ]
+    },
+    {
+        question: "Which blood type is known as the universal donor?",
+        answers: [
+            { text: 'O-', isCorrect: true },
+            { text: 'O+', isCorrect: false },
+            { text: 'AB+', isCorrect: false },
+            { text: 'A-', isCorrect: false },
+        ]
+    },
+    {
+        question: "What is the freezing point of water in Celsius?",
+        answers: [
+            { text: '0°C', isCorrect: true },
+            { text: '32°C', isCorrect: false },
+            { text: '-1°C', isCorrect: false },
+            { text: '100°C', isCorrect: false },
+        ]
+    }
 
 ];
 
