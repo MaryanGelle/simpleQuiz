@@ -134,6 +134,7 @@ const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const scoreElement = document.getElementById("score");
+const timerSpan = document.getElementById('timer');
 
 let currentQuestionIndex = 0;
 let score = 0;
