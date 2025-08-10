@@ -11,16 +11,28 @@ We welcome you to your new favorite game website that will test your knowledge. 
 # Contents
 
 * [**User Experience UX**](#user-experience-ux)
+  * [User Stories](#user-stories)
+  * [Wireframes](#wireframes)
+  * [Design Choises](#design-choices)
+  * [Typography](#typography)
+  * [Colour Scheme](#colour-scheme)
+
+* [**Features**](#features)
+  * [**Home**](#navigation-menu)
+  * [**Quiz**](#quiz)
+  * [**Instruction**](#instruction)
+
+* [**Testing**](#testing)
+
+* [**Technology Used**](#technology-used)
+
+* [**Deployment**](#deployment)
+
+* [**Credit**](#credit)
+
+* [**Aknowledgment**](#aknowledgment)
 
 
-- [Features](#features)
-  - [Current Features](#current-features)
-  - [Future Features](#future-features)
-- [Testing](#testing)
-- [Deployment](#deployment)
-- [Credit](#credit)
-- [Aknowledgment](#aknowledgment)
-  
 
 # User Experience UX
 
