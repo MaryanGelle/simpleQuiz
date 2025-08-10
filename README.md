@@ -114,6 +114,10 @@ Testing and validation was used to ensure quality and correct coding in order to
 - JavaScript Validator: The JavaScript code has been validated using the [Esprima] (https://esprima.org/demo/validate.html)
 - CSS Validator: The CSS code has been validated using the [W3 CSS Validation Service] (<https://jigsaw.w3.org/css-validator/>)
 
+Please refer to [**_here_**](TESTING.md) for more information on testing the Quiz.
+
+# Techonologies Used
+
 
 # Deployment
  The General Knowledge Quiz can be deployed using the steps:
