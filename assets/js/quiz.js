@@ -297,6 +297,17 @@ soundBtn.addEventListener('click', (e) => {
     }
 })
 
+// reset //
+
+window.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('reset-answer').addEventListener('click', () => {
+    const selectedAnswer = document.querySelector('#answer-buttons .btn.selected');
+    if (selectedAnswer) {
+      selectedAnswer.classList.remove('selected');
+      selectedAnswer.disabled = false;
+    }
+  });
+});
 
 startQuiz();
 
