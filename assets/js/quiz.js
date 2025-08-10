@@ -265,6 +265,40 @@ volumeSlider.addEventListener('change', (e) => {
     console.log('Volume change to: ', volume);
 });
 
+// time function //
+let seconds = 0;
+let minutes = 0;
+let t;
+const timerSpan = document.getElementById('timer');
+
+function timer() {
+  t = setTimeout(() => {
+    addTime();
+  }, 1000);
+}
+
+function addTime() {
+  clearTimeout(t);
+  seconds++;
+  if (seconds >= 60) {
+    seconds = 0;
+    minutes++;
+  }
+  timerSpan.textContent = (minutes > 9 ? minutes : "0" + minutes) + " : " + (seconds > 9 ? seconds : "0" + seconds);
+  timer();
+}
+
+function stopTimer() {
+  clearTimeout(t);
+}
+
+// Start timer when quiz starts:
+addTime();
+
+// Stop timer when quiz ends:
+// stopTimer();
+
+
 startQuiz();
 
 
