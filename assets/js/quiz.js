@@ -1,6 +1,6 @@
 const username = JSON.parse(localStorage.getItem('username'));
-const muteSound= document.getElementById('muteSound');
-const correctSound = document.getElementById("correctSound");
+const muteSound= document.getElementById('soundBtn');
+const correctSound = document.getElementById("correcteSound");
 const wrongSound = document.getElementById("wrongSound");
 console.log(sound);
 console.log(wrongSound);
