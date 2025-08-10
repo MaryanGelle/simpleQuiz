@@ -228,6 +228,14 @@ function shuffle(array) {
 // New global shuffled questions array
 let shuffledQuizData = [];
 
+// Function to initialize or reset the quiz questions to 10 random ones
+function initQuizQuestions(allQuestions) {
+    const copied = allQuestions.slice();  // copy original questions
+    const shuffled = shuffle(copied);     // shuffle copy
+    shuffledQuizData = shuffle([...quizdata]).slice(0, 10);
+}
+
+
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
@@ -243,8 +251,8 @@ function startQuiz() {
     score = 0;
     nextButton.innerHTML = "Next";
 
-      // Create a new shuffled copy of quizdata on every quiz start
-    shuffledQuizData = shuffle([...quizdata]);
+      // Shuffle and pick only 10 questions
+    shuffledQuizData = shuffle([...quizdata]).slice(0, 10);
 
     showQuestion();
     if (timerLoop) clearInterval(timerLoop);
