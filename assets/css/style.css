@@ -49,6 +49,7 @@ body {
   gap: 8px;
   width: fit-content;
   margin-top: 20px; /* some space above */
+  background-color: #9dc2ed;
 }
 
 
@@ -156,11 +157,11 @@ label {
 
 .btn {
     flex-basis: 48%;
-    /* Adjust this value as needed to control the width of each button */
+    /* controls the width of each button */
 }
 
 .btn {
-    background: #fff;
+    background: #c8e3f6;
     color: #333;
     font-size: 16px;
     width: fit-content;
@@ -176,9 +177,14 @@ label {
 
 }
 
+.btn:hover {
+    background-color: #a0d4f1; /* a slightly darker blue */
+    transform: scale(1.03); /* subtle zoom effect */
+}
+
 
 #next-btn {
-    background: blue;
+    background: #327dd5;
     color: #fff;
     font-weight: 500;
     width: 150px;
@@ -205,17 +211,26 @@ label {
 
 
 .true {
-    background: yellow;
+    background-color: #4CAF50;
+    color: #fff;
 
 }
 
 .false {
-    background: red;
+    background-color: #E53935;
+    color: #fff;
 
 }
 
 #score {
-    color: gold;
+    color: #4CAF50;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#timer {
+    color: #4CAF50;
     font-size: 20px;
     text-align: center;
     margin-top: 20px;
@@ -257,13 +272,16 @@ ul li {
   border-radius: 5px;
   font-weight: bold;
   font-size: 1.1rem;
-  background-color: #f9f9f9;
+  background-color: #ECEFF1;
 }
 
 .score-holder, .time-holder {
   flex: 1;
   text-align: center;
+  color:#FB8C00;
+  
 }
+
 
 @media screen and (max-width: 768px) {
 
