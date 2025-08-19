@@ -305,7 +305,6 @@ function showQuestion() {
     nextButton.style.display = "none"; // Hide the next button
 }
 
-
 function showNextButton() {
     nextButton.style.display = "block"; // Show the next button
 
@@ -345,7 +344,6 @@ function showScore() {
 
 
 
-
     // Show the start button when the result is displayed
     document.getElementById("start-btn").style.display = "block";
 
@@ -358,6 +356,8 @@ function showScore() {
 
 
 }
+
+
 
 // Creating sound effect for true or false answer
 
