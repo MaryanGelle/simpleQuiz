@@ -354,7 +354,7 @@ function showScore() {
     scoreElement.style.display = "block";
 
     // High score logic
-    let highScore = localStorage.getItem('highScore') || 0;
+        let highScore = localStorage.getItem('highScore') || 0;
     highScore = Number(highScore); // ensure it's a number
 
     if (score > highScore) {
@@ -362,25 +362,27 @@ function showScore() {
         localStorage.setItem('highScore', highScore);
     }
 
-    // Create and display high score element if it doesn't exist
+    // update the high score in html
     let highScoreElement = document.getElementById("high-score");
-    if (!highScoreElement) {
-        highScoreElement = document.createElement("div");
-        highScoreElement.id = "high-score";
-        highScoreElement.style.position = "absolute";
-        highScoreElement.style.top = "10px";
-        highScoreElement.style.right = "10px";
-        highScoreElement.style.fontSize = "20px";
-        highScoreElement.style.fontWeight = "bold";
-        highScoreElement.style.color = "#fff";
-        document.body.appendChild(highScoreElement);
+    if (highScoreElement) {
+    highScoreElement.textContent = highScore;
+
     }
 
     // Display high score
 
     highScoreElement.innerHTML = `Highest Score: ${highScore}`;
     highScoreElement.style.display = "block";
+    
+    function endQuiz() {
+    // Stop timer, etc.
+    
+    // Update score
+    document.getElementById('high-score').innerText = score;
 
+    // Show the whole container
+    document.getElementById('high-score-holder').style.display = 'block';
+}
 
     // Simple final message based on score
     let finalMessage = "";
