@@ -123,7 +123,7 @@ const quizdata = [
 
 
     },
-   { 
+    {
         question: "What is the largest planet in our Solar System?",
         answers: [
             { text: 'Earth', isCorrect: false },
@@ -238,20 +238,22 @@ function initQuizQuestions(allQuestions) {
 
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
+const questionCounter = document.getElementById("question-counter");
+const totalQuestionsSpan = document.getElementById("total-questions");
 const nextButton = document.getElementById("next-btn");
 const scoreElement = document.getElementById("score");
 const timerSpan = document.getElementById('timer');
 
 let currentQuestionIndex = 0;
 let score = 0;
-let timerLoop;let timerStepper = 0;
+let timerLoop; let timerStepper = 0;
 
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
 
-      // Shuffle and pick only 10 questions
+    // Shuffle and pick only 10 questions
     shuffledQuizData = shuffle([...quizdata]).slice(0, 10);
 
     showQuestion();
@@ -264,6 +266,7 @@ function startQuiz() {
         timerSpan.innerHTML = `${minutes}:${paddedSeconds}`;
     }, 1000);
 }
+
 function update_score() {
     scoreElement.innerHTML = score;
 }
@@ -272,6 +275,9 @@ function showQuestion() {
     let currentQuestion = shuffledQuizData[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+    document.getElementById("question-counter").textContent = currentQuestionIndex + 1;
+    document.getElementById("total-questions").textContent = shuffledQuizData.length;
+
 
     answerButtons.innerHTML = ""; // Clear previous answer buttons
 
@@ -333,15 +339,37 @@ nextButton.addEventListener("click", () => {
 
 function showScore() {
     if (timerLoop) clearInterval(timerLoop);
+
+    // Update question counter
+    const questionCounterTop = document.querySelector('.question-counter-top');
+    if (questionCounterTop) questionCounterTop.style.display = "none";
     questionElement.innerHTML = "Thank you for playing!";
     answerButtons.innerHTML = "";
     nextButton.style.display = "none";
+
 
     // Declare and assign the scoreElement
     const scoreElement = document.getElementById("score");
     scoreElement.innerHTML = `Score: ${score} out of ${shuffledQuizData.length}`;
     scoreElement.style.display = "block";
 
+    // Simple final message based on score
+    let finalMessage = "";
+    if (score >= 8) {
+        finalMessage = `Well done!`;
+    } else if (score >= 5) {
+        finalMessage = `Good try!`;
+    } else {
+        finalMessage = `Better luck next time!`;
+    }
+
+    document.getElementById("start-btn").style.display = "block";
+
+    // Hide the welcome message at the end
+    document.getElementById("welcome-h1").style.display = "none";
+
+    // Show "Thank you for playing!" + finalmessage
+    questionElement.innerHTML = `Thank you for playing, ${username}!<br>${finalMessage}`;
 
 
     // Show the start button when the result is displayed
@@ -388,7 +416,7 @@ volumeSlider.addEventListener('change', (e) => {
     console.log('Volume change to: ', volume);
 });
 let storedVolume = volumeSlider.value;
-const soundBtn = document.querySelector('#soundBtn')
+const soundBtn = document.querySelector('#soundBtn');
 function mute() {
     storedVolume = volumeSlider.value;
     volumeSlider.value = sound.volume = wrongSound.volume = 0;
@@ -405,7 +433,7 @@ soundBtn.addEventListener('click', (e) => {
     } else {
         unmute();
     }
-})
+});
 
 
 

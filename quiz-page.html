@@ -17,6 +17,10 @@
 
     <div class="quiz-container" id="quiz">
 
+        <div class="question-counter-top">
+            Question <span id="question-counter">1</span> / <span id="total-questions">10</span>
+        </div>
+
         <div class="question-header">
             <h1 id="welcome-h1"></h1>
             <h2 id="question">Question is such...</h2>
@@ -31,49 +35,53 @@
         </div>
 
         <div class="controls">
-        <button id="next-btn">Next</button>
-        <button id="start-btn"> Play again!</button>
+            <button id="next-btn">Next</button>
+            <button id="start-btn"> Play again!</button>
         </div>
         <audio id="sound">
-        <source src="correct-choice.mp3">
-    </audio>
+            <source src="correct-choice.mp3">
+        </audio>
 
-    <audio id="wrongSound">
-        <source src="negative_beeps.mp3">
-    </audio>
+        <audio id="wrongSound">
+            <source src="negative_beeps.mp3">
+        </audio>
 
-    <audio id="correctSound" src="correct-choice.mp3" preload="auto"></audio>
-    <audio id="wrongSound" src="negative_beeps.mp3" preload="auto"></audio>
-    
-    
-    <!--Sound control-->
-      <div class="sound-control">
-     <!-- Volume Icon-->
-      <button id="soundBtn">
-        <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 9C16.5 9.5 17 10.5 17 12C17 13.5 16.5 14.5 16 15M19 6C20.5 7.5 21 10 21 12C21 14 20.5 16.5 19 18M13 3L7 8H5C3.89543 8 3 8.89543 3 10V14C3 15.1046 3.89543 16 5 16H7L13 21V3Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </button>
-      <input id="volumeSlider" type="range" min="0" max="1" step="0.1" value="1">
-      </div> 
+        <audio id="correctSound" src="correct-choice.mp3" preload="auto"></audio>
+        <audio id="wrongSound" src="negative_beeps.mp3" preload="auto"></audio>
+
+
+        <!--Sound control-->
+        <div class="sound-control">
+            <!-- Volume Icon-->
+            <button id="soundBtn">
+                <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M16 9C16.5 9.5 17 10.5 17 12C17 13.5 16.5 14.5 16 15M19 6C20.5 7.5 21 10 21 12C21 14 20.5 16.5 19 18M13 3L7 8H5C3.89543 8 3 8.89543 3 10V14C3 15.1046 3.89543 16 5 16H7L13 21V3Z"
+                        stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+            <input id="volumeSlider" type="range" min="0" max="1" step="0.1" value="1">
+        </div>
 
         <!-- Score and time -->
-   <div class="status-bar">
-        <div class="score-holder">
-            Score: <span id="score">0</span>
+        <div class="status-bar">
+            <div class="score-holder">
+                Score: <span id="score">0</span>
+            </div>
+            <div class="time-holder">
+                Time: <span id="timer">00:00</span>
+            </div>
+            <div id="quiz-results" class="result-box" style="display:none;">
+                <h2 id="feedback"></h2>
+            </div>
+
         </div>
-        <div class="time-holder">
-            Time: <span id="timer">00:00</span>
-        </div>
-        <div id="quiz-results" class="result-box" style="display:none;">
-        <h2 id="feedback"></h2>
-        </div>
-
-    </div>
 
 
-    <script src="assets/js/quiz.js">
+        <script src="assets/js/quiz.js">
 
 
-    </script>
+        </script>
 </body>
 
 </html>

@@ -44,12 +44,29 @@ body {
 }
 
 .sound-control {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  width: fit-content;
-  margin-top: 20px; /* some space above */
-  background-color: #9dc2ed;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+    margin-top: 20px;
+    /* some space above */
+    background-color: #9dc2ed;
+}
+
+
+#question-counter {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ae5454;
+    margin-bottom: 10px;
+    text-align: right;
+    /* or center if you prefer */
+}
+
+#question-counter span {
+    font-weight: bold;
+    color: #3498db;
+    /* highlight the current question number */
 }
 
 
@@ -178,8 +195,10 @@ label {
 }
 
 .btn:hover {
-    background-color: #a0d4f1; /* a slightly darker blue */
-    transform: scale(1.03); /* subtle zoom effect */
+    background-color: #a0d4f1;
+    /* a slightly darker blue */
+    transform: scale(1.03);
+    /* subtle zoom effect */
 }
 
 
@@ -263,23 +282,24 @@ ul li {
 
 
 .status-bar {
-  display: flex;
-  justify-content: space-between;
-  max-width: 600px;
-  margin: 10px auto;
-  padding: 5px 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 1.1rem;
-  background-color: #ECEFF1;
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #ECEFF1;
 }
 
-.score-holder, .time-holder {
-  flex: 1;
-  text-align: center;
-  color:#FB8C00;
-  
+.score-holder,
+.time-holder {
+    flex: 1;
+    text-align: center;
+    color: #FB8C00;
+
 }
 
 
