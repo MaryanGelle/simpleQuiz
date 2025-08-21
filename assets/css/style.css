@@ -94,7 +94,7 @@ label {
 
 }
 
-.start-button {
+.start-button  {
     display: block;
     width: 20%;
     padding: 10px;
@@ -216,7 +216,7 @@ label {
 }
 
 
-#start-btn {
+#start-btn, #menu-btn {
     background: #4CAF50;
     color: #fff;
     font-weight: 500;

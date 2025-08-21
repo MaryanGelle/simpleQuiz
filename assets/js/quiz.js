@@ -398,6 +398,7 @@ function showScore() {
     }
 
     document.getElementById("start-btn").style.display = "block";
+    document.getElementById("menu-btn").style.display = "block";
 
     // Hide the welcome message at the end
     document.getElementById("welcome-h1").style.display = "none";
@@ -408,11 +409,17 @@ function showScore() {
 
     // Show the start button when the result is displayed
     document.getElementById("start-btn").style.display = "block";
+    document.getElementById("menu-btn").style.display = "block";
 
     const startButton = document.getElementById("start-btn");
+    const menuButton = document.getElementById("menu-btn");
 
 
     startButton.addEventListener("click", function () {
+        window.location.href = "quiz-page.html";
+    });
+
+    menuButton.addEventListener("click", function () {
         window.location.href = "index.html";
     });
 
