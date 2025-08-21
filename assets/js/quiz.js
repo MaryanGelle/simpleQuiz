@@ -287,6 +287,9 @@ function showQuestion() {
         const button = document.createElement("button");
         button.innerHTML = answer.text;
         button.classList.add("btn");
+
+        // Attach info to the button
+        button.dataset.correct = answer.isCorrect;
         answerButtons.appendChild(button);
 
         button.addEventListener("click", () => {
@@ -300,8 +303,16 @@ function showQuestion() {
                 wrongSound.play();
 
             }
-            disableAnswerButtons();
-            showNextButton();
+             // Disable all buttons and highlight correct one
+        const allButtons = answerButtons.querySelectorAll("button");
+        allButtons.forEach(btn => {
+            btn.disabled = true;
+            if (btn.dataset.correct === "true") {
+                btn.classList.add("true"); // always show correct
+            }
+        });
+
+        showNextButton();
         });
     });
 
@@ -324,6 +335,7 @@ function disableAnswerButtons() {
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].disabled = true; // Disable answer buttons
 
+   
     }
 }
 

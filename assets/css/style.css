@@ -202,6 +202,15 @@ label {
     /* subtle zoom effect */
 }
 
+.btn:disabled {
+    cursor: not-allowed;   /* Shows a “blocked” cursor */
+    opacity: 0.6;          /* Makes the button look faded */
+}
+
+.btn:disabled:hover {
+    transform: none;       /* Stop the hover zoom effect */
+    background-color: inherit;  /* Keep its current color */
+}
 
 #next-btn {
     background: #327dd5;
