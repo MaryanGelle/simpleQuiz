@@ -4,6 +4,8 @@ const wrongSound = document.getElementById("wrongSound");
 console.log(sound);
 console.log(wrongSound);
 const h1 = document.getElementById('welcome-h1');
+const preHighscore = window.localStorage.getItem('highScore');
+if (preHighscore) document.getElementById('high-score').innerText = preHighscore;
 
 h1.innerText = `Welcome to the Quiz ${username}`;
 // Array have indexes
@@ -350,11 +352,11 @@ function showScore() {
 
     // Declare and assign the scoreElement
     const scoreElement = document.getElementById("score");
-    scoreElement.innerHTML = `Score: ${score} out of ${shuffledQuizData.length}`;
+    scoreElement.innerHTML = `${score} out of ${shuffledQuizData.length}`;
     scoreElement.style.display = "block";
 
     // High score logic
-        let highScore = localStorage.getItem('highScore') || 0;
+    let highScore = localStorage.getItem('highScore') || 0;
     highScore = Number(highScore); // ensure it's a number
 
     if (score > highScore) {
@@ -365,24 +367,25 @@ function showScore() {
     // update the high score in html
     let highScoreElement = document.getElementById("high-score");
     if (highScoreElement) {
-    highScoreElement.textContent = highScore;
+        highScoreElement.textContent = highScore;
 
     }
 
     // Display high score
 
-    highScoreElement.innerHTML = `Highest Score: ${highScore}`;
+    highScoreElement.innerHTML = `${highScore}`;
     highScoreElement.style.display = "block";
-    
-    function endQuiz() {
-    // Stop timer, etc.
-    
-    // Update score
-    document.getElementById('high-score').innerText = score;
+    console.log('height score called');
 
-    // Show the whole container
-    document.getElementById('high-score-holder').style.display = 'block';
-}
+    function endQuiz() {
+        // Stop timer, etc.
+
+        // Update score
+        document.getElementById('high-score').innerText = score;
+
+        // Show the whole container
+        document.getElementById('high-score-holder').style.display = 'block';
+    }
 
     // Simple final message based on score
     let finalMessage = "";
