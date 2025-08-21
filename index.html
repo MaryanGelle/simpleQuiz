@@ -19,8 +19,11 @@
         <form id="username-form">
             <div class="form-group">
                 <label for="username">Enter username:</label>
-                <input type="text" id="username" required autocomplete="off">
+                <!-- restriction to letters only for username -->
+                <input type="text" id="username" required autocomplete="off" pattern="[A-Za-z]+" title="Please enter letters only">
             </div>
+
+            <!-- user friendly instruction and start game button-->
 
             <button type="submit" class="start-button">Start Quiz</button>
             <a href="instructions.html" class="instruction-button">
@@ -28,6 +31,7 @@
             </a>
 
         </form>
+        <!-- Game sound wrong and correct choice-->
             <audio id="correctSound" src="correct-choice.mp3" preload="auto"></audio>
       <audio id="wrongSound" src="negative_beeps.mp3" preload="auto"></audio>
 
