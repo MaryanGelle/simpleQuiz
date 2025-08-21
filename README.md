@@ -124,6 +124,12 @@ Please refer to [**_here_**](TESTING.md) for more information on testing the Qui
 
 # Techonologies Used
 
+  - Auto Close Tag:
+    It is an extension ..
+
+  - Prettier:
+    It ..
+
 
 # Deployment
  
