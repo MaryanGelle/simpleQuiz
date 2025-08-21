@@ -6,9 +6,10 @@ We welcome you to your new favorite game website that will test your knowledge. 
 
 ![Responsive Mockup](assets\images\mockup-quiz.jpg)
 
+
 <a id="contents"></a>
 
-# Contents
+## Contents
 
 * [**User Experience UX**](#user-experience-ux)
   * [User Stories](#user-stories)
@@ -125,12 +126,17 @@ Please refer to [**_here_**](TESTING.md) for more information on testing the Qui
 
 
 # Deployment
- The General Knowledge Quiz can be deployed using the steps:
-
-1. In the repository of Github, go to setting.
-2. On the setting page, on your left side tab you will click on Pages.
-3. Once inside Github Pages, you will find "source" select main and click save.
-4. You will then be able to see the github page, the green box will show up under suggesting that the side has been published at link toward your page. 
+ 
+1. Sign in to your GitHub account.
+2. Go to https://github.com/MaryanGelle.
+3. You can create a new repository.
+4. On your Workspace use 'git add', 'git commit', and 'git push' to push changes to your GitHub repository.
+5. GitHub Pages automatically updates from the master branch by default.
+6. Open the Settings page of your repository.
+7. Scroll down to the GitHub Pages section.
+8. Select the Master Branch as the source and confirm your selection.
+9. Confirm your selection.
+10. Wait a moment for the changes to propagate. Your website should be live shortly.
 
 ![deploy](assets/images/deploy.jpg)
 
@@ -159,6 +165,6 @@ Please refer to [**_here_**](TESTING.md) for more information on testing the Qui
 [Back to top](#contents)
 
 # Acknowledgment
-* This Website quiz game was made by Maryan Gelle (Developer) as a Project 2 JavaScript for my Full Stack programe at Code Institue in 2023. 
+* This Website quiz game was made by Maryan Gelle (Developer) as a Project 2 JavaScript for my Full Stack programe at Code Institue in 2025. 
 
 [Back to top](#contents)
