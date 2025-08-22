@@ -208,6 +208,20 @@ Below you will find credit references to my sources for content and media.
 -
 -
 
+https://jshint.com/ for javascript validation
+
+https://jigsaw.w3.org/css-validator/validator for css
+
+https://validator.w3.org/nu/#textarea for html
+
+https://pagespeed.web.dev/ pagespeed Accessibility testing 
+
+prettier app for better formatting for performance
+
+to improce accessibility contrast test/background 
+use to https://webaim.org/resources/contrastchecker/ compare
+
+
 [Back to top](#contents)
 
 # Acknowledgment
