@@ -14,17 +14,19 @@
 </head>
 
 <body>
-
+    <!-- Main container for the quiz -->
     <div class="quiz-container" id="quiz">
 
+        <!-- Shows which question we are on / total questions -->
         <div class="question-counter-top">
             Question <span id="question-counter">1</span> / <span id="total-questions">10</span>
         </div>
-
+        <!-- Header for the quiz question -->
         <div class="question-header">
-            <h1 id="welcome-h1"></h1>
-            <h2 id="question">Question is such...</h2>
+            <h1 id="welcome-h1"></h1> <!-- Welcome message with username -->
+            <h2 id="question">Question is such...</h2> <!-- Placeholder for the current question -->
 
+            <!-- Buttons for answer choices -->
             <div id="answer-buttons" class="btn-grid">
                 <button class="btn">Answer 1</button>
                 <button class="btn">Answer 2</button>
@@ -33,12 +35,13 @@
             </div>
 
         </div>
-
+        <!-- Control buttons for the quiz -->
         <div class="controls">
             <button id="next-btn">Next</button>
             <button id="start-btn"> Play again!</button>
             <button id="menu-btn"> Home page</button>
         </div>
+        <!-- Sound effects for correct/wrong answers -->
         <audio id="sound">
             <source src="correct-choice.mp3">
         </audio>
@@ -64,7 +67,7 @@
             <input id="volumeSlider" type="range" min="0" max="1" step="0.1" value="1">
         </div>
 
-        <!-- Score and time -->
+       <!-- Bottom status bar showing score, time, and high score -->
         <div class="status-bar">
             <div class="score-holder">
                 Score: <span id="score" style="display: block;">0</span> 
@@ -81,7 +84,7 @@
 
         </div>
 
-
+     <!-- Link to our JavaScript for functionality -->
         <script src="assets/js/quiz.js">
 
 
