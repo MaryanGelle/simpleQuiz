@@ -148,6 +148,10 @@ Please refer to [**_here_**](TESTING.md) for more information on testing the Qui
 - Use 'git clone' command followed by the URL of the repository in order to deploy the project locally: such as, git clone 'https://github.com/MaryanGelle/simplequiz'
 ### Github Deployment
 
+Requirements:
+
+- A valid GitHub account.
+- Familiarity with basic Git commands for version control.
 
 1. Sign in to your GitHub account.
 2. Go to https://github.com/MaryanGelle.
