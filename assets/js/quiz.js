@@ -331,6 +331,7 @@ function showNextButton() {
 
 }
 
+/*
 // Disable all answer buttons 
 
 function disableAnswerButtons() {
@@ -341,6 +342,8 @@ function disableAnswerButtons() {
    
     }
 }
+*/
+
 // Handle Next button click
 
 nextButton.addEventListener("click", () => {
@@ -437,7 +440,7 @@ function showScore() {
 
 // Creating sound effect for true or false answer
 
-
+/*
 function oneclick(isCorrect) {
     if (isCorrect) {
         console.log('correct sound');
@@ -447,6 +450,7 @@ function oneclick(isCorrect) {
         wrongSound.play(); // Play the wrong sound
     }
 }
+    */
 // Volume slider
 const volumeSlider = document.querySelector('#volumeSlider');
 volumeSlider.value = sound.volume = wrongSound.volume = 1;
