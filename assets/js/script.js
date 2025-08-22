@@ -1,4 +1,4 @@
-
+/* jshint esversion: 6 */
 const form = document.getElementById('username-form');
 const username = document.getElementById('username');
 
