@@ -48,7 +48,6 @@ It also allows users the flexibility to express their individuality to their gam
 - ## User Stories
 
 
------
 Privacy
 
 The player's username will only be visable to their players game session, this will not be stored or collected. It ensures privacy and secruity for all our users. The final page with scoring only includes the specific players score and does not display previous players name for security reasons. 
@@ -70,6 +69,9 @@ Users Demands
 - ## Typography
 
 - ## Colour Scheme
+
+
+[Back to top](#contents)
 
 # Features
 
@@ -132,9 +134,13 @@ Answer Feedback colors has been created that is associated with the users choice
 
 - ## Instruction Page
 
+[Back to top](#contents)
+
 - ## Future Features
 Features for future quiz feature inorder to improve users overall experience that could be included to the quiz includes: 
  * Different levels to the quiz game, were the users can pick from beginner friendly, mid and difficult level. This would attract more users to the game.
+
+[Back to top](#contents)
 
 # Testing
 Testing and validation was used to ensure quality and correct coding in order to create a functioning quiz for our users experience. 
@@ -145,6 +151,9 @@ Testing and validation was used to ensure quality and correct coding in order to
 
 Please refer to [**_here_**](TESTING.md) for more information on testing the Quiz.
 
+[Back to top](#contents)
+
+
 # Techonologies Used
 
   - Auto Close Tag:
@@ -152,6 +161,9 @@ Please refer to [**_here_**](TESTING.md) for more information on testing the Qui
 
   - Prettier:
     It ..
+
+
+[Back to top](#contents)
 
 
 # Deployment
@@ -193,10 +205,11 @@ Requirements:
 
 Below you will find credit references to my sources for content and media. 
 
-* Lato Font from [Google Fonts] (https://www.fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap)
+* Lato Font from [Google Fonts] 
+  (https://www.fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap)
 * Sound Effect:
-    Correct sound effect from [Pixabay] (<https://pixabay.com/sound-effects/search/correct/>)
-    Wrong sound effect from [Pixabay] (<https://pixabay.com/sound-effects/search/incorrect/>)
+  - Correct sound effect from [Pixabay] (<https://pixabay.com/sound-effects/search/correct/>)
+  - Wrong sound effect from [Pixabay] (<https://pixabay.com/sound-effects/search/incorrect/>)
 * Icon from [Flaticon] (<https://www.flaticon.com/search?word=knowledge>)
 *
 *
