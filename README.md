@@ -6,6 +6,9 @@ We welcome you to your new favorite game website that will test your knowledge. 
 
 ![Responsive Mockup](assets\images\mockup-quiz.jpg)
 
+<div align="center">
+  <img src="assets\images\mockup-quiz.jpg" style="background-color: white" alt="Quiz website mockup on mobile, desktop and Ipad">
+</div>
 
 <a id="contents"></a>
 
