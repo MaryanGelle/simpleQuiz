@@ -45,13 +45,13 @@ Mobile and desktop performance result from Google's PageSpeed Insights for the s
 
 Desktop:
 
-Performance: 100%
+- Performance: 100%
 
-SEO: 100%
+- SEO: 100%
 
-Accessibility: 92%
+- Accessibility: 92%
 
-Best Practices: 100%
+- Best Practices: 100%
 
 <div align="center">
   <img src="assets\readme-images\pageSpeed-desktop.png" style="background-color: white" alt="pageSpeed insight>
@@ -59,13 +59,13 @@ Best Practices: 100%
 
 Mobile:
 
-Performance: 94%
+- Performance: 94%
 
-SEO: 100%
+- SEO: 100%
 
-Accessibility: 92%
+- Accessibility: 92%
 
-Best Practices: 100%
+- Best Practices: 100%
 
 
 <div align="center">
