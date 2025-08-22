@@ -41,9 +41,39 @@ Feedback on result for Java Script both form and the rest of the quiz came all c
 - Page speed Insight
   For Accessibility testing for both mobile and desktop device, I used the [PageSpeed](https://pagespeed.web.dev/).
 
-mobile performance result from Google's PageSpeed Insights for the site:
+Mobile and desktop performance result from Google's PageSpeed Insights for the site:
 
-score..?
+Desktop:
+
+Performance: 100%
+
+SEO: 100%
+
+Accessibility: 92%
+
+Best Practices: 100%
+
+<div align="center">
+  <img src="assets\readme-images\pageSpeed-desktop.png" style="background-color: white" alt="pageSpeed insight>
+</div>
+
+Mobile:
+
+Performance: 94%
+
+SEO: 100%
+
+Accessibility: 92%
+
+Best Practices: 100%
+
+
+<div align="center">
+  <img src="assets\readme-images\pageSpeed-mobile.png" style="background-color: white" alt="pageSpeed insight>
+</div>
+
+
+</div>
 
 - ## Responsivness test
 
