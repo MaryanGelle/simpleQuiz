@@ -50,6 +50,17 @@ body {
   background-color: #9dc2ed;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
 #question-counter {
   font-size: 16px;
   font-weight: 500;
@@ -208,6 +219,7 @@ label {
   font-weight: 500;
   width: 150px;
   padding: 10px;
+  background-color: #204111;
   margin: 30px auto 10px;
   border-radius: 4px;
   cursor: pointer;
