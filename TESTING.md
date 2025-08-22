@@ -77,4 +77,25 @@ You can also see the full results on [Google PageSpeed Insights](https://pagespe
 
 - ## Responsivness test
 
+Tested manually using Chrome DevTools and Responsive Design Checker.
+
+Mobile S	Mobile M	Mobile L	iPad	Laptop	Desktop
+Layout	Pass	Pass	Pass	Pass	Pass	Pass
+Images	Pass	Pass	Pass	Pass	Pass	Pass
+Links	Pass	Pass	Pass	Pass	Pass	Pass
+
+Summary: Layouts adapt smoothly, images scale correctly, and all links work across all devices and screen sizes.| Pass    | Pass    |
+
 - ## Browser Compatability
+
+Browsers tested:
+
+Chrome ✅
+
+Firefox ✅
+
+Safari ✅
+
+Edge ✅
+
+Summary: The site adapts smoothly to all screen sizes, images scale correctly, links work as expected, and functionality is consistent across major browsers.
