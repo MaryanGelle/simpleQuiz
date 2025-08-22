@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 const username = localStorage.getItem('username');
 const sound = document.getElementById("correctSound");
 const wrongSound = document.getElementById("wrongSound");
@@ -233,12 +234,10 @@ function shuffle(array) {
 let shuffledQuizData = [];
 
 // Function to initialize or reset the quiz questions to 10 random ones
-function initQuizQuestions(allQuestions) {
-    const copied = allQuestions.slice();  // copy original questions
-    const shuffled = shuffle(copied);     // shuffle copy
+function initQuizQuestions() {
     shuffledQuizData = shuffle([...quizdata]).slice(0, 10);
-}
 
+}
 
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
