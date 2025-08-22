@@ -4,10 +4,9 @@ General Knowledge Quiz is a simple and beginner friendly game that aims to test 
 
 We welcome you to your new favorite game website that will test your knowledge. Since this quiz is a beginer friendly, it will be a good start to challange yourself. We believe knowledge should be both fun and rewarding. The primary objective of the game is to assess the players general knowledge while also serving as a learning tool. You can access our platform through <a href="https://maryangelle.github.io/simplequiz/" target="_blank" rel="noopener">General Knowledge Quiz</a>
 
-![Responsive Mockup](assets\images\mockup-quiz.jpg)
 
 <div align="center">
-  <img src="assets\images\mockup-quiz.jpg" style="background-color: white" alt="Quiz website mockup on mobile, desktop and Ipad">
+  <img src="assets\images\mockup-quizgame.jpg" style="background-color: white" alt="Quiz website mockup on mobile, desktop and Ipad">
 </div>
 
 <a id="contents"></a>
