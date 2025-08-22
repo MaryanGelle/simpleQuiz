@@ -233,16 +233,9 @@ function shuffle(array) {
 // New global shuffled questions array
 let shuffledQuizData = [];
 
-// Function to initialize or reset the quiz questions to 10 random ones
-function initQuizQuestions() {
-    shuffledQuizData = shuffle([...quizdata]).slice(0, 10);
-
-}
 
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
-const questionCounter = document.getElementById("question-counter");
-const totalQuestionsSpan = document.getElementById("total-questions");
 const nextButton = document.getElementById("next-btn");
 const scoreElement = document.getElementById("score");
 const timerSpan = document.getElementById('timer');
@@ -269,6 +262,8 @@ function startQuiz() {
         const paddedSeconds = seconds < 10 ? `0${seconds}` : seconds;
         timerSpan.innerHTML = `${minutes}:${paddedSeconds}`;
     }, 1000);
+
+    
 }
 
 // Update the score display
@@ -396,17 +391,8 @@ function showScore() {
 
     highScoreElement.innerHTML = `${highScore}`;
     highScoreElement.style.display = "block";
-    console.log('height score called');
+    console.log('high score called');
 
-    function endQuiz() {
-        // Stop timer, etc.
-
-        // Update score
-        document.getElementById('high-score').innerText = score;
-
-        // Show the whole container
-        document.getElementById('high-score-holder').style.display = 'block';
-    }
 
     // Simple final message based on score
     let finalMessage = "";
