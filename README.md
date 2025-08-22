@@ -86,7 +86,10 @@ Below you will find the features used in my quiz game project. The value the fea
   * A button "how to play" that instructs the user with information about the game and how to play. It allows a better user experience sinze the players gain an understanding for the game mechanics. The users also get familiar with the rules and expectations.
   * A start button "start Quiz" creates a benefit to the users as a seamless invitation to click the button for an easy smooth transition to the game. It creates intuitive user interaction by pressing the button it creates a call-to-action to start the game. 
 
-![Home-page](assets\readme-images\home-page.jpg)
+
+<div align="center">
+  <img src="assets\readme-images\home-page.jpg" style="background-color: black" alt="Quiz Home page">
+</div>
 
   * Button colors for "start quiz" and "how to play" have been picked out as vibrant button colors as they play significant role in enhancing user experience and adding value to the quiz game. The colors create an emotional respone to the users as they have the ability to evoke emotions. Green color creates emotions of "fresh" and "new" and thus was picked to make the users excited to try out the game. "Blue" was used for "how to play" button since blue color is conveys a trusting sence. We want our users to feel that they can trust our game and trust to find the information they need to successfully play the quiz. 
 
@@ -179,7 +182,7 @@ Please refer to [**_here_**](TESTING.md) for more information on testing the Qui
 ### Github Deployment
 
 <div align="center">
-  <img src="assets\readme-images\deployment.jpg" style="background-color: black" alt="Horizon Photo">
+  <img src="assets\readme-images\deployment.jpg" style="background-color: black" alt="Deployment Github page">
 </div>
 
 Requirements:

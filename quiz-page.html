@@ -46,13 +46,10 @@
             <source src="correct-choice.mp3">
         </audio>
 
-        <audio id="wrongSound">
-            <source src="negative_beeps.mp3">
-        </audio>
+       <audio id="wrongSound" src="negative_beeps.mp3" preload="auto"></audio>
 
         <audio id="correctSound" src="correct-choice.mp3" preload="auto"></audio>
-        <audio id="wrongSound" src="negative_beeps.mp3" preload="auto"></audio>
-
+        
 
         <!--Sound control-->
         <div class="sound-control">
@@ -76,7 +73,7 @@
                 Time: <span id="timer" style="display: block;">00:00</span> 
             </div>
             <div id="quiz-results" class="result-box" style="display:none;">
-                <h2 id="feedback"></h2>
+                <h2 id="feedback">Your result will appear here</h2>
             </div>
             <div class="high-score-holder">
             High Score:  <span id="high-score" style="display: block;">0</span>
