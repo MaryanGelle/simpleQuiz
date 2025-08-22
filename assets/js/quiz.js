@@ -331,18 +331,6 @@ function showNextButton() {
 
 }
 
-/*
-// Disable all answer buttons 
-
-function disableAnswerButtons() {
-    const buttons = answerButtons.getElementsByTagName("button");
-    for (let i = 0; i < buttons.length; i++) {
-        buttons[i].disabled = true; // Disable answer buttons
-
-   
-    }
-}
-*/
 
 // Handle Next button click
 
@@ -440,17 +428,7 @@ function showScore() {
 
 // Creating sound effect for true or false answer
 
-/*
-function oneclick(isCorrect) {
-    if (isCorrect) {
-        console.log('correct sound');
-        sound.play(); // Play the correct sound
-    } else {
-        console.log('wrong sound');
-        wrongSound.play(); // Play the wrong sound
-    }
-}
-    */
+
 // Volume slider
 const volumeSlider = document.querySelector('#volumeSlider');
 volumeSlider.value = sound.volume = wrongSound.volume = 1;
