@@ -73,7 +73,7 @@ Mobile:
 </div>
 
 
-</div>
+You can also see the full results on [Google PageSpeed Insights](https://pagespeed.web.dev/analysis/https-maryangelle-github-io-simplequiz/dox930yg5c?form_factor=desktop).
 
 - ## Responsivness test
 
