@@ -45,11 +45,15 @@ By entering their own username, players will have a personlized game experience.
 
 It also allows users the flexibility to express their individuality to their game experience. 
 
-## Privacy
+- ## User Stories
+
+
+-----
+Privacy
 
 The player's username will only be visable to their players game session, this will not be stored or collected. It ensures privacy and secruity for all our users. The final page with scoring only includes the specific players score and does not display previous players name for security reasons. 
 
-## Users Demands
+Users Demands
 * A user want to see instructions to the game on "how to play".
 * A user want to know how long the game will take.
 * A user want to know the level of difficulty this game required.
@@ -57,6 +61,15 @@ The player's username will only be visable to their players game session, this w
 * A user want to know how they scored.
   
 [Back to top](#contents)
+
+
+- ## Wireframes
+
+- ## Design Choises
+
+- ## Typography
+
+- ## Colour Scheme
 
 # Features
 
@@ -76,9 +89,10 @@ Below you will find the features used in my quiz game project. The value the fea
   * Button colors for "start quiz" and "how to play" have been picked out as vibrant button colors as they play significant role in enhancing user experience and adding value to the quiz game. The colors create an emotional respone to the users as they have the ability to evoke emotions. Green color creates emotions of "fresh" and "new" and thus was picked to make the users excited to try out the game. "Blue" was used for "how to play" button since blue color is conveys a trusting sence. We want our users to feel that they can trust our game and trust to find the information they need to successfully play the quiz. 
 
 
-- ## Quiz Page
+- ## Quiz-page
   
-    * Answer Feedback colors has been created that is associated with the users choice of answer. It is interactive with the users input of choice. Distinct colors of "yellow" and "red" to provide feedback on the true or false answer. It provides clear visial differentiation for the users to identity their answers either as wrong or wright. The colors sends an immidiete feedback to the users and reinforces them to remember the correct and incorrect answers for future references. 
+
+Answer Feedback colors has been created that is associated with the users choice of answer. It is interactive with the users input of choice. Distinct colors of "yellow" and "red" to provide feedback on the true or false answer. It provides clear visial differentiation for the users to identity their answers either as wrong or wright. The colors sends an immidiete feedback to the users and reinforces them to remember the correct and incorrect answers for future references. 
 
 
 ![Answer](assets/images/right.answer.png)
@@ -93,7 +107,7 @@ Below you will find the features used in my quiz game project. The value the fea
 
 ![Next button](assets/images/with.png)
 
-  * Sound effect for answer feedback has been integrated to create a sound effect for right and wrong answer. In order to enhance overall users experience. It serves as an audio feedback for the users to reflect their answers. Correct answer has a positive sound which create a sense of achievement and encouragement for our users. It serves as inclusive function for our users who perhaps need an audio feedback instead of a visual feedback. This promotes accessbility for all our users. 
+  
 
 - ## End Page 
  The end of the quiz game features several functions and component that contribute to  closure to the game and users final experience.  
@@ -101,17 +115,25 @@ Below you will find the features used in my quiz game project. The value the fea
   * A score text which allows users to see their final score for the game. It serves the purpose to motivate users to play again and if needed to score better next time. 
   * A play again button is created to offer users the ability to play again and restart the game. It encourages replaybility for users to play again and an opportunity for continued learning. 
 
-  - ## Sound Controls
+  - ## Sound Effects
 
-  - ## Sound Menu
+  * Sound effect for answer feedback has been integrated to create a sound effect for right and wrong answer. In order to enhance overall users experience. It serves as an audio feedback for the users to reflect their answers. Correct answer has a positive sound which create a sense of achievement and encouragement for our users. It serves as inclusive function for our users who perhaps need an audio feedback instead of a visual feedback. This promotes accessbility for all our users. 
+
+ - ## Score
+
+ - ## Timer
+ 
+ - ## High Score
+
+ - ## Highlight
 
   
 ![score](assets/images/final.png)
 
-## Future Features
+- ## Instruction Page
+
+- ## Future Features
 Features for future quiz feature inorder to improve users overall experience that could be included to the quiz includes: 
- * Controll for sound effect. Ability for users to mute the sounds off if needed. 
- * A score board that is visable throughout the game to allows users to predict their final result. 
  * Different levels to the quiz game, were the users can pick from beginner friendly, mid and difficult level. This would attract more users to the game.
 
 # Testing
@@ -135,18 +157,18 @@ Please refer to [**_here_**](TESTING.md) for more information on testing the Qui
 # Deployment
 
 ### Local Deployment
-
-<div align="center">
-  <img src="assets\readme-images\deployment.jpg" style="background-color: black" alt="Horizon Photo">
-</div>
-
 - Choose an IDE that you work on which will be connected to your Github for further deployment.
 - We chose the Github workspace: https://github.com/features/codespaces
 - Ensure that your local development environment is properly set up with all necessary dependencies and configurations.
 - Consider using a version control system like Git to manage changes locally before pushing them to Github.
 - Open terminal on your workspace.
 - Use 'git clone' command followed by the URL of the repository in order to deploy the project locally: such as, git clone 'https://github.com/MaryanGelle/simplequiz'
+
 ### Github Deployment
+
+<div align="center">
+  <img src="assets\readme-images\deployment.jpg" style="background-color: black" alt="Horizon Photo">
+</div>
 
 Requirements:
 
@@ -163,9 +185,6 @@ Requirements:
 8. Select the Master Branch as the source and confirm your selection.
 9. Confirm your selection.
 10. Wait a moment for the changes to propagate. Your website should be live shortly.
-
-![deploy](assets/images/deploy.jpg)
-
 
 
 [Back to top](#contents)
