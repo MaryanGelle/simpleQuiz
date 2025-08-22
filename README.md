@@ -222,6 +222,15 @@ to improce accessibility contrast test/background
 use to https://webaim.org/resources/contrastchecker/ compare
 
 
+to improve accessibility contrast test/background 
+use to https://webaim.org/resources/contrastchecker/ compare
+
+responsiveness
+https://www.responsivedesignchecker.com/checker.php?url=https%3A%2F%2Fmaryangelle.github.io%2Fsimplequiz%2F&width=1400&height=700
+google 
+
+
+
 [Back to top](#contents)
 
 # Acknowledgment

@@ -88,7 +88,7 @@ Summary: Layouts adapt smoothly, images scale correctly, and all links work acro
 
 - ## Browser Compatability
 
-Browsers tested:
+- Browsers tested:
 
 Chrome ✅
 
