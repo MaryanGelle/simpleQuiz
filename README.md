@@ -70,11 +70,42 @@ Users Demands
 
 - ## Wireframes
 
+Wireframes and mockups were created to help visualize the layout and user interface (UI) of the quiz website before development. The initial wireframes for the quiz platform were designed using Balsamiq. Below are the early designs for the main sections of the website.
+
+
+<div align="center">
+  <img src="assets\readme-images\wireframes.jpg" style="background-color: blue" alt="Mockup image created in order to build user friendly website">
+</div>
+
 - ## Design Choises
+
+- Design Philosophy
+The design of the Simple Quiz is centered around simplicity and clarity, using minimal visual elements to ensure that users can focus on the quiz content itself. By reducing distractions and keeping the interface clean, the quiz becomes easy to navigate and intuitive to use, following the principle that less is more.
+
+Layout
+
+- The layout is minimal and straightforward, designed to prioritize content and interactivity:
+- Header / Question Area: Displays the current question clearly at the top.
+- Answer Buttons: Large, easily clickable buttons that change color based on correctness.
+- Responsive Design: The layout adapts seamlessly to mobile, tablet, and desktop screens, ensuring consistent usability on any device.
+
+By keeping the interface uncluttered and feedback immediate, the Simple Quiz encourages engagement and makes learning or testing knowledge an enjoyable and efficient experience.
 
 - ## Typography
 
 - ## Colour Scheme
+
+- The color palette of the Simple Quiz is intentionally minimalistic to enhance clarity, usability, and immediate feedback. Each color choice was made to guide the user’s attention naturally while maintaining a clean and readable interface.
+- Correct Answer: Green (#4caf50) with white text. This color provides clear positive reinforcement when a user selects the right answer, creating an immediate and intuitive signal of success.
+- Incorrect Answer: Red (#e53935) with white text. Red is used to indicate errors, giving instant visual feedback to the user and highlighting the need to try again.
+- Neutral Backgrounds: Various shades of blue (#9dc2ed, #c8e3f6) and soft greys (#eceff1) are used for containers, buttons, and status bars. These neutral tones create a calm, uncluttered environment that keeps the user’s focus on the questions and answers.
+- Primary Text Colors: Dark grey (#333) is used for most text to ensure readability against lighter backgrounds, while accent colors like blue (#3498db) and orange (#fb8c00) are applied to highlight important elements such as question numbers, scores, and timers.
+- Interactive Elements: Buttons and controls have hover states with subtle color shifts (#a0d4f1, #45a049) and scale effects to provide tactile feedback without overwhelming the user. Disabled buttons are faded and non-interactive to signal their state clearly.
+- This carefully considered palette ensures that the interface is visually accessible, intuitive, and responsive, allowing users to quickly distinguish between correct and incorrect answers, navigate the quiz, and remain engaged throughout the experience. The use of consistent colors across different elements creates a unified and professional look, enhancing the overall user experience.
+
+<div align="center">
+  <img src="assets\readme-images\color-palatte.png" style="background-color: multiple-colors" alt="color-palatte for Simple quiz">
+</div>
 
 [Back to top](#contents)
 
