@@ -141,6 +141,8 @@ Answer Feedback colors has been created that is associated with the users choice
 
 * Score Tracking & Leaderboards: Users can track their progress, compare scores with friends, and aim for high scores.
 
+* Performance Optimizations: Further tweaks to improve mobile performance and reduce load times, ensuring the game runs smoothly on all devices.
+
 [Back to top](#contents)
 
 # Testing
