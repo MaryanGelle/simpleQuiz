@@ -255,7 +255,7 @@ Responsiveness Testing
 
 Feedback
 
- -Feedback and guidance were provided by my mentor Precious at Code Institute.
+- Feedback and guidance were provided by my mentor Precious at Code Institute.
 
 [Back to top](#contents)
 
