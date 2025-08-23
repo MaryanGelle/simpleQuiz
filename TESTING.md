@@ -99,3 +99,13 @@ Safari ✅
 Edge ✅
 
 Summary: The site adapts smoothly to all screen sizes, images scale correctly, links work as expected, and functionality is consistent across major browsers.
+
+- ## Bugs
+
+- Form elements without associated labels: For example, the volume slider (#volumeSlider) does not have a label, which may affect how screen readers announce the control.
+
+- Opportunities to improve semantic markup: Some interactive controls could be enhanced with proper ARIA roles and labels to improve support for assistive technologies.
+
+- Manual accessibility checks recommended: While automated tests pass most audits, some items still require manual review, such as logical tab order, keyboard focus behavior, and use of HTML5 landmark elements.
+
+- Accessibility score: 92/100: overall good, but there are areas to improve for a fully accessible experience.
