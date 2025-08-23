@@ -39,25 +39,32 @@ You can access our platform through <a href="https://maryangelle.github.io/simpl
 
 # User Experience UX
 
-The quiz game allows the players to personlize their experience by entering a username.
+The quiz game provides a personalized and interactive experience. Players enter their username, which is displayed throughout the game and on the final score page, giving a sense of ownership and connection.
 
-By entering their own username, players will have a personlized game experience. This feature enhances users experience and creates an interactive that is both fun but also personal. One the user/player enters their name it will be displayed throughout the game. This provides a sense of ownership and connection.
+Each game consists of 10 randomly shuffled questions. The questions are different each time, so players can enjoy a new experience on every playthrough. The game currently has one difficulty level, but the randomized questions ensure variety and replayability.
 
-It also allows users the flexibility to express their individuality to their game experience.
+An instructions page is provided to help players understand how to play, the expected game duration, and what the game is about.
 
 - ## User Stories
 
 Privacy
 
-The player's username will only be visable to their players game session, this will not be stored or collected. It ensures privacy and secruity for all our users. The final page with scoring only includes the specific players score and does not display previous players name for security reasons.
+- A player’s username is only visible during their session and is not stored or collected, ensuring privacy and security.
+
+- The final score page shows only the current player’s score, without displaying any previous players’ usernames.
 
 Users Demands
 
-- A user want to see instructions to the game on "how to play".
-- A user want to know how long the game will take.
-- A user want to know the level of difficulty this game required.
-- A user want to know who the main target players are based on age.
-- A user want to know how they scored.
+- As a user, I want to see instructions on how to play the game.
+
+- As a user, I want to know how long the game will take.
+
+- As a user, I want to see my username displayed throughout the game for a personalized experience.
+
+- As a user, I want the questions to be randomized so that each game feels unique.
+
+- As a user, I want to see my final score at the end of the game.
+
 
 [Back to top](#contents)
 
@@ -135,13 +142,17 @@ Answer Feedback colors has been created that is associated with the users choice
 - ## Future Features
   To further enhance the user experience, the following features could be added to the quiz game in the future:
 
-* Multiple Difficulty Levels: Users could choose between beginner, intermediate, and advanced levels, making the game suitable for all skill levels.
+* Multiple Difficulty Levels: Let players choose between beginner, intermediate, or advanced levels for a more tailored challenge.
 
-* Category Selection: Allow players to pick topics they are interested in, such as science, history, or pop culture.
+* Category Selection: Allow players to pick topics they’re interested in, such as science, history, or pop culture.
 
-* Score Tracking & Leaderboards: Users can track their progress, compare scores with friends, and aim for high scores.
+* Score Tracking & Leaderboards: Players can track their progress, compare scores with friends, and aim for high scores.
 
-* Performance Optimizations: Further tweaks to improve mobile performance and reduce load times, ensuring the game runs smoothly on all devices.
+* Enhanced Personalization: Remember player preferences locally (without storing personal data) for a more personalized experience across sessions.
+
+* Accessibility Improvements: Further refine labels, ARIA roles, and instructions to make the game fully accessible.
+
+* Performance Optimizations: Improve load times and mobile performance for smoother gameplay on all devices.
 
 [Back to top](#contents)
 
