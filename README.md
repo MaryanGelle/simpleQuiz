@@ -216,40 +216,39 @@ Requirements:
 
 Below you will find credit references to my sources for content and media.
 
-- Lato Font from [Google Fonts]
-  (https://www.fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap)
-- Sound Effect:
-  - Correct sound effect from [Pixabay] (<https://pixabay.com/sound-effects/search/correct/>)
-  - Wrong sound effect from [Pixabay] (<https://pixabay.com/sound-effects/search/incorrect/>)
-- Icon from [Flaticon] (<https://www.flaticon.com/search?word=knowledge>)
--
--
--
--
--
+Fonts
 
-https://jshint.com/ for javascript validation
+- Lato Font from Google Fonts: https://www.fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap
 
-https://jigsaw.w3.org/css-validator/validator for css
+Sound Effects
 
-https://validator.w3.org/nu/#textarea for html
+- Correct sound effect from Pixabay: https://pixabay.com/sound-effects/search/correct/
 
-https://pagespeed.web.dev/ pagespeed Accessibility testing 
+- Wrong sound effect from Pixabay: https://pixabay.com/sound-effects/search/incorrect/
 
-prettier app for better formatting for performance
+Icons
 
-to improce accessibility contrast test/background 
-use to https://webaim.org/resources/contrastchecker/ compare
+- Icons from Flaticon: https://www.flaticon.com/search?word=knowledge
 
+Code Quality & Formatting Tools
 
-to improve accessibility contrast test/background 
-use to https://webaim.org/resources/contrastchecker/ compare
+- JSHint: JavaScript validation: https://jshint.com/
 
-responsiveness
-https://www.responsivedesignchecker.com/checker.php?url=https%3A%2F%2Fmaryangelle.github.io%2Fsimplequiz%2F&width=1400&height=700
-google 
+- CSS Validator: CSS validation: https://jigsaw.w3.org/css-validator/validator
 
+- HTML Validator: HTML validation: https://validator.w3.org/nu/#textarea
 
+- Prettier: automatic code formatting for better performance: https://prettier.io/
+
+Performance & Accessibility
+
+- PageSpeed Insights: performance and accessibility testing: https://pagespeed.web.dev/
+
+- WebAIM Contrast Checker: check color contrast for accessibility: https://webaim.org/resources/contrastchecker/
+
+Responsiveness Testing
+
+- Responsive Design Checker: verify responsiveness across devices: https://www.responsivedesignchecker.com/checker.php?url=https%3A%2F%2Fmaryangelle.github.io%2Fsimplequiz%2F&width=1400&height=700
 
 [Back to top](#contents)
 
