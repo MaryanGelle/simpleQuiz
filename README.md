@@ -32,7 +32,7 @@ You can access our platform through <a href="https://maryangelle.github.io/simpl
   - [**High Score**](#highest-score)
   - [**Highlight**](#highlight-answer)
 - [**Testing**](#testing)
-- [**Technology Used**](#technology-used)
+- [**Technology Used**](#technology & tools-used)
 - [**Deployment**](#deployment)
 - [**Credit**](#credit)
 - [**Aknowledgment**](#aknowledgment)
@@ -133,9 +133,13 @@ Answer Feedback colors has been created that is associated with the users choice
 [Back to top](#contents)
 
 - ## Future Features
-  Features for future quiz feature inorder to improve users overall experience that could be included to the quiz includes:
+  To further enhance the user experience, the following features could be added to the quiz game in the future:
 
-* Different levels to the quiz game, were the users can pick from beginner friendly, mid and difficult level. This would attract more users to the game.
+* Multiple Difficulty Levels: Users could choose between beginner, intermediate, and advanced levels, making the game suitable for all skill levels.
+
+* Category Selection: Allow players to pick topics they are interested in, such as science, history, or pop culture.
+
+* Score Tracking & Leaderboards: Users can track their progress, compare scores with friends, and aim for high scores.
 
 [Back to top](#contents)
 
@@ -151,13 +155,26 @@ Please refer to [**_here_**](TESTING.md) for more information on testing the Qui
 
 [Back to top](#contents)
 
-# Techonologies Used
+# Techonologies & Tools Used
 
-- Auto Close Tag:
-  It is an extension ..
+Technologies:
 
-- Prettier:
-  It ..
+HTML5 – structure and content of the website
+
+CSS – styling and layout
+
+JavaScript – interactivity and dynamic content
+
+Design & Planning Tools:
+
+- Balsamiq: wireframing
+- Gitpod: deploying the website
+- GitHub: hosting and version control
+- VS Code Extensions / Developer Tools:
+  - Prettier: automatic code formatting
+  - Auto Close Tag: automatically closes HTML tags
+  - Live Server: preview your website in the browser with auto-refresh
+
 
 [Back to top](#contents)
 
