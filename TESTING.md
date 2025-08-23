@@ -112,6 +112,3 @@ For Accessibility:
 
 - Accessibility score: 92/100: overall good, but there are areas to improve for a fully accessible experience.
 
-For Performance:
-
-- 

@@ -32,7 +32,7 @@ You can access our platform through <a href="https://maryangelle.github.io/simpl
   - [**High Score**](#highest-score)
   - [**Highlight**](#highlight-answer)
 - [**Testing**](#testing)
-- [**Technology Used**](#technology & tools-used)
+- [**Technology Used**](#technology-used)
 - [**Deployment**](#deployment)
 - [**Credit**](#credit)
 - [**Aknowledgment**](#aknowledgment)
@@ -157,7 +157,7 @@ Please refer to [**_here_**](TESTING.md) for more information on testing the Qui
 
 [Back to top](#contents)
 
-# Techonologies & Tools Used
+# Techonologies Used
 
 Technologies:
 
