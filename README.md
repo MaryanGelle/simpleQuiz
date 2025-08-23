@@ -160,11 +160,8 @@ Please refer to [**_here_**](TESTING.md) for more information on testing the Qui
 # Technology Used
 
 Technologies:
-
 - HTML5: structure and content of the website
-
 - CSS: styling and layout
-
 - JavaScript: interactivity and dynamic content
 
 - Design & Planning Tools:
