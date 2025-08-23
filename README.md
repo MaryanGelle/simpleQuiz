@@ -221,7 +221,7 @@ Fonts
 
 Design & Planning
 
- -Wireframes and mockups were created using Balsamiq, which helped visualize the layout and user interface (UI) before development began. Wireframe: https://balsamiq.com/
+- Wireframes and mockups were created using Balsamiq, which helped visualize the layout and user interface (UI) before development began. Wireframe: https://balsamiq.com/
 
 Sound Effects
 
