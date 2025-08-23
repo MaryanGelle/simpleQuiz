@@ -214,11 +214,15 @@ Requirements:
 
 # Credit
 
-Below you will find credit references to my sources for content and media.
+Below you will find credit references to my sources for content, media and feedback.
 
 Fonts
 
 - Lato Font from Google Fonts: https://www.fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap
+
+Design & Planning
+
+ -Wireframes and mockups were created using Balsamiq, which helped visualize the layout and user interface (UI) before development began. Wireframe: https://balsamiq.com/
 
 Sound Effects
 
@@ -249,6 +253,10 @@ Performance & Accessibility
 Responsiveness Testing
 
 - Responsive Design Checker: verify responsiveness across devices: https://www.responsivedesignchecker.com/checker.php?url=https%3A%2F%2Fmaryangelle.github.io%2Fsimplequiz%2F&width=1400&height=700
+
+Feedback
+
+ -Feedback and guidance were provided by my mentor Precious at Code Institute.
 
 [Back to top](#contents)
 
