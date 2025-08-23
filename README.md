@@ -98,6 +98,18 @@ By keeping the interface uncluttered and feedback immediate, the Simple Quiz enc
 
 - ## Typography
 
+- Font Family: Sans-serif for a clean, modern look across all pages.
+
+- Headings: h1 for main titles, large and bold; h2 for sections like instructions or feedback.
+
+- Questions: Bold and responsive for easy readability.
+
+- Answer Buttons: Medium bold text, white on dynamic backgrounds (green for correct, red for incorrect), with hover effects for interactivity.
+
+- Instructions & Feedback: Dark grey text on light backgrounds for clarity.
+
+- Consistency & Accessibility: Typography is uniform across pages with high contrast to ensure readability and accessibility.
+
 - ## Colour Scheme
 
 - The color palette of the Simple Quiz is intentionally minimalistic to enhance clarity, usability, and immediate feedback. Each color choice was made to guide the user’s attention naturally while maintaining a clean and readable interface.
