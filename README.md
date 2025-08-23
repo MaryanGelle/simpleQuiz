@@ -9,7 +9,7 @@ This quiz is the ideal place to start if you want to push yourself, discover new
 You can access our platform through <a href="https://maryangelle.github.io/simplequiz/" target="_blank" rel="noopener">General Knowledge Quiz</a>
 
 <div align="center">
-  <img src="assets\readme-images\mockup-quizgame.jpg" style="background-color: white" alt="Quiz website mockup on mobile, desktop and Ipad">
+  <img src="assets\readme-images\mockupImages.jpg" style="background-color: white" alt="Quiz website mockup on mobile, desktop and Ipad">
 </div>
 
 <a id="contents"></a>
