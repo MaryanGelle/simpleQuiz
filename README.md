@@ -159,21 +159,20 @@ Please refer to [**_here_**](TESTING.md) for more information on testing the Qui
 
 Technologies:
 
-HTML5 – structure and content of the website
+- HTML5: structure and content of the website
 
-CSS – styling and layout
+- CSS: styling and layout
 
-JavaScript – interactivity and dynamic content
+- JavaScript: interactivity and dynamic content
 
-Design & Planning Tools:
-
-- Balsamiq: wireframing
-- Gitpod: deploying the website
-- GitHub: hosting and version control
-- VS Code Extensions / Developer Tools:
-  - Prettier: automatic code formatting
-  - Auto Close Tag: automatically closes HTML tags
-  - Live Server: preview your website in the browser with auto-refresh
+- Design & Planning Tools:
+ - Balsamiq: wireframing
+ - Gitpod: deploying the website
+ - GitHub: hosting and version control
+ - VS Code Extensions / Developer Tools:
+ - Prettier: automatic code formatting
+ - Auto Close Tag: automatically closes HTML tags
+ - Live Server: preview your website in the browser with auto-refresh
 
 
 [Back to top](#contents)
