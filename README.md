@@ -45,6 +45,11 @@ Each game consists of 10 randomly shuffled questions. The questions are differen
 
 An instructions page is provided to help players understand how to play, the expected game duration, and what the game is about.
 
+<div align="center">
+  <img src="assets\readme-images\instruction-page.png" style="background-color: blue" alt="Instruction page">
+</div>
+
+
 - ## User Stories
 
 Privacy
@@ -134,50 +139,89 @@ Button Colors
 - These colors enhance engagement and provide an emotional connection with the game.
 
 <div align="center">
-  <img src="assets\readme-images\home-page.jpg" style="background-color: blue" alt="Simple quiz Home page">
+  <img src="assets\readme-images\home-page.png" style="background-color: blue" alt="Simple quiz Home page">
 </div>
-
-- Button colors for "start quiz" and "how to play" have been picked out as vibrant button colors as they play significant role in enhancing user experience and adding value to the quiz game. The colors create an emotional respone to the users as they have the ability to evoke emotions. Green color creates emotions of "fresh" and "new" and thus was picked to make the users excited to try out the game. "Blue" was used for "how to play" button since blue color is conveys a trusting sence. We want our users to feel that they can trust our game and trust to find the information they need to successfully play the quiz.
 
 * ## Quiz-page
 
-Answer Feedback colors has been created that is associated with the users choice of answer. It is interactive with the users input of choice. Distinct colors of "yellow" and "red" to provide feedback on the true or false answer. It provides clear visial differentiation for the users to identity their answers either as wrong or wright. The colors sends an immidiete feedback to the users and reinforces them to remember the correct and incorrect answers for future references.
+Question Display & Answer Choices
 
-![Answer](assets/images/right.answer.png)
+Question Presentation
+- Questions are displayed one at a time, each with four answer options. Users select the answer they believe is correct.
 
-![Answer](assets/images/wrong.answer.png)
+Answer Feedback
+Correct: Yellow
+Incorrect: Red
 
-- Next button's function only appears after the players have choicen and clicked an answer. It serves as a progression controll, it provides strucure and controlled game experience. It inceases users engagement as it also a form to make the users engaged and interactive in the game, pushing them to take action to procees the game's next question. It also serves to push the learning experience of the users as it allows the users to reflect their answer before moving to next question automatically.
+Hover Effects
+- Before selecting an answer, hovering over the options visually highlights them to indicate interactivity. After an answer is selected, hover effects are disabled for the remaining options, ensuring users cannot change their choice and reinforcing the feedback.
 
-  Below you will find images of the same question before and after appearance of the "next button".
+Educational Purpose
+- If a user selects the wrong answer, the correct option is clearly highlighted. This allows users to learn as they play, reinforcing knowledge through immediate feedback while maintaining an engaging and interactive experience.
 
-![Next button](assets/images/without.png)
+<div align="center">
+  <img src="assets\readme-images\quiz-page.png" style="background-color: blue" alt="Simple quiz page">
+</div>
 
-![Next button](assets/images/with.png)
+<div align="center">
+  <img src="assets\readme-images\true-falseAnswer.png" style="background-color: red and green" alt="True, false answer and next button">
+</div>
+
 
 - ## End Page
 
-  The end of the quiz game features several functions and component that contribute to closure to the game and users final experience.
+The end of the quiz provides a clear and rewarding closure for users, enhancing their overall experience:
 
-  - A thank you text to thank the users for their engagement. It serves the purpose to make the users feel valued for their time and aknowledged for participating.
-  - A score text which allows users to see their final score for the game. It serves the purpose to motivate users to play again and if needed to score better next time.
-  - A play again button is created to offer users the ability to play again and restart the game. It encourages replaybility for users to play again and an opportunity for continued learning.
+Thank You Message
+- A friendly message acknowledges the user’s participation, making them feel valued and appreciated.
+
+Final Score Display
+- Shows the total number of correct answers out of 10. This motivates users to replay and improve their performance.
+
+Dynamic Feedback Message
+Based on the user’s score:
+
+8–10 correct: “Well done!”
+
+5–7 correct: “Good try!”
+
+0–4 correct: “Better luck next time!”
+This adds a personalized touch and encourages continued learning.
+
+High Score Display
+- Shows the highest score achieved on the device, stored locally. Users can see their progress over time and are encouraged to beat their previous best.
+
+Play Again & Navigation Buttons
+- Users can immediately start another round using the Play Again button or return to the home page. This encourages replayability and keeps users engaged with the quiz.
+
+<div align="center">
+  <img src="assets\readme-images\quiz-endPage.png" style="background-color: blue" alt="End of the quiz message">
+</div>
+  
 
   * ## Sound Effects
 
-  - Sound effect for answer feedback has been integrated to create a sound effect for right and wrong answer. In order to enhance overall users experience. It serves as an audio feedback for the users to reflect their answers. Correct answer has a positive sound which create a sense of achievement and encouragement for our users. It serves as inclusive function for our users who perhaps need an audio feedback instead of a visual feedback. This promotes accessbility for all our users.
+Answer Feedback Sounds:
+The quiz game includes distinct audio feedback for correct and incorrect answers:
 
-- ## Score
+- Correct answer: Plays a positive sound, giving users a sense of achievement and reinforcing learning.
 
-- ## Timer
+- Incorrect answer: Plays a gentle alert sound, signaling the mistake and helping users remember the correct choice.
+This combination of visual and audio cues enhances engagement and supports an educational experience.
 
-- ## High Score
+Volume Control (Soundbar)
+- Users can adjust the volume of all game sounds using a slider. This allows players to tailor audio levels to their preference or environment. The slider provides real-time control, so changes are heard immediately.
 
-- ## Highlight
+Mute / Unmute Button
+- A mute/unmute button is available for users who prefer to play in silence. When muted, the slider sets the volume to 0, and clicking the button again restores the previous volume. This gives players full control over their audio experience.
 
-![score](assets/images/final.png)
+Accessibility & Inclusivity
+- These features make the quiz more accessible for users who may rely on auditory feedback or need to adjust sound due to their surroundings. It ensures that all players, regardless of preference or ability, can enjoy a smooth and engaging experience.
 
-- ## Instruction Page
+<div align="center">
+  <img src="assets\readme-images\sound-bar-mute.png" style="background-color: blue" alt="sound effect and control">
+</div>
+
 
 [Back to top](#contents)
 
