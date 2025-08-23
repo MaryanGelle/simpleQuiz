@@ -157,7 +157,7 @@ Please refer to [**_here_**](TESTING.md) for more information on testing the Qui
 
 [Back to top](#contents)
 
-# Techonologies Used
+# Technology Used
 
 Technologies:
 
