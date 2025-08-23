@@ -1,8 +1,12 @@
-# General Knowledge Quiz
+# Simple Quiz
 
-General Knowledge Quiz is a simple and beginner friendly game that aims to test general knowledge through multiple-choice questions. It is suitable for anyone, including adults and children.
+The Simple Quiz is an entertaining, instructive, and easy-to-learn game that uses multiple choice questions to assess and broaden your general knowledge. It is appropriate for kids, teens, and adults of all ages.
 
-We welcome you to your new favorite game website that will test your knowledge. Since this quiz is a beginer friendly, it will be a good start to challange yourself. We believe knowledge should be both fun and rewarding. The primary objective of the game is to assess the players general knowledge while also serving as a learning tool. You can access our platform through <a href="https://maryangelle.github.io/simplequiz/" target="_blank" rel="noopener">General Knowledge Quiz</a>
+Greetings from your new favorite quiz site! In addition to testing your knowledge, our game teaches you in an interesting and dynamic way. Every question is designed to be both educational and amusing, allowing players to have fun while expanding their knowledge.
+
+This quiz is the ideal place to start if you want to push yourself, discover new information, or have a fun game of rivalry with loved ones. Our objective is to transform curiosity into a joyful experience by making learning rewarding and pleasurable.
+
+You can access our platform through <a href="https://maryangelle.github.io/simplequiz/" target="_blank" rel="noopener">General Knowledge Quiz</a>
 
 <div align="center">
   <img src="assets\readme-images\mockup-quizgame.jpg" style="background-color: white" alt="Quiz website mockup on mobile, desktop and Ipad">
