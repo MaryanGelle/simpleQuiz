@@ -183,6 +183,7 @@ Technologies:
  - Prettier: automatic code formatting
  - Auto Close Tag: automatically closes HTML tags
  - Live Server: preview your website in the browser with auto-refresh
+ - Visual assets / mockups created with Canva
 
 
 [Back to top](#contents)
@@ -233,6 +234,7 @@ Fonts
 Design & Planning
 
 - Wireframes and mockups were created using Balsamiq, which helped visualize the layout and user interface (UI) before development began. Wireframe: https://balsamiq.com/
+- Visual assets / mockups created with Canva: https://www.canva.com/
 
 Sound Effects
 
