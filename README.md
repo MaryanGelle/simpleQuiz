@@ -19,9 +19,9 @@ You can access our platform through <a href="https://maryangelle.github.io/simpl
 - [**User Experience UX**](#user-experience-ux)
   - [**User Stories**](#user-stories)
   - [**Wireframes**](#wireframes)
-  - [**Design Choises**](#design-choices)
+  - [**Design Choices**](#design-choices)
   - [**Typography**](#typography)
-  - [**Colour Scheme**](#colour-scheme)
+  - [**Color Scheme**](#colour-scheme)
 - [**Features**](#features)
   - [**Home**](#navigation-menu)
   - [**Quiz**](#quiz)
@@ -35,13 +35,13 @@ You can access our platform through <a href="https://maryangelle.github.io/simpl
 - [**Technology Used**](#technology-used)
 - [**Deployment**](#deployment)
 - [**Credit**](#credit)
-- [**Aknowledgment**](#aknowledgment)
+- [**Acknowledgment**](#acknowledgment)
 
 # User Experience UX
 
 The quiz game provides a personalized and interactive experience. Players enter their username, which is displayed throughout the game and on the final score page, giving a sense of ownership and connection.
 
-Each game consists of 10 randomly shuffled questions. The questions are different each time, so players can enjoy a new experience on every playthrough. The game currently has one difficulty level, but the randomized questions ensure variety and replayability.
+Each game consists of 10 randomly shuffled questions. The questions are different each time, so players can enjoy a new experience on every play. The game currently has one difficulty level, but the randomized questions ensure variety and replay ability.
 
 An instructions page is provided to help players understand how to play, the expected game duration, and what the game is about.
 
@@ -82,7 +82,7 @@ Wireframes and mockups were created to help visualize the layout and user interf
   <img src="assets\readme-images\wireframes.jpg" style="background-color: blue" alt="Mockup image created in order to build user friendly website">
 </div>
 
-- ## Design Choises
+- ## Design Choices
 
 - Design Philosophy
 The design of the Simple Quiz is centered around simplicity and clarity, using minimal visual elements to ensure that users can focus on the quiz content itself. By reducing distractions and keeping the interface clean, the quiz becomes easy to navigate and intuitive to use, following the principle that less is more.
@@ -110,7 +110,7 @@ By keeping the interface uncluttered and feedback immediate, the Simple Quiz enc
 
 - Consistency & Accessibility: Typography is uniform across pages with high contrast to ensure readability and accessibility.
 
-- ## Colour Scheme
+- ## Color Scheme
 
 - The color palette of the Simple Quiz is intentionally minimalistic to enhance clarity, usability, and immediate feedback. Each color choice was made to guide the user’s attention naturally while maintaining a clean and readable interface.
 - Correct Answer: Green (#4caf50) with white text. This color provides clear positive reinforcement when a user selects the right answer, creating an immediate and intuitive signal of success.
@@ -202,7 +202,7 @@ High Score Display
 - Shows the highest score achieved on the device, stored locally. Users can see their progress over time and are encouraged to beat their previous best.
 
 Play Again & Navigation Buttons
-- Users can immediately start another round using the Play Again button or return to the home page. This encourages replayability and keeps users engaged with the quiz.
+- Users can immediately start another round using the Play Again button or return to the home page. This encourages replay ability and keeps users engaged with the quiz.
 
 <div align="center">
   <img src="assets\readme-images\quiz-endPage.png" style="background-color: blue" alt="End of the quiz message">
@@ -370,6 +370,6 @@ Feedback
 
 # Acknowledgment
 
-This Website quiz game was made by Maryan Gelle (Developer) as a Project 2 JavaScript for my Full Stack programe at Code Institue in 2025.
+This Website quiz game was made by Maryan Gelle (Developer) as a Project 2 JavaScript for my Full Stack programme at Code Institute in 2025.
 
 [Back to top](#contents)
