@@ -121,7 +121,7 @@ By keeping the interface uncluttered and feedback immediate, the Simple Quiz enc
 - This carefully considered palette ensures that the interface is visually accessible, intuitive, and responsive, allowing users to quickly distinguish between correct and incorrect answers, navigate the quiz, and remain engaged throughout the experience. The use of consistent colors across different elements creates a unified and professional look, enhancing the overall user experience.
 
 <div align="center">
-  <img src="assets\readme-images\color-palatte.png" style="background-color: multiple-colors" alt="color-palatte for Simple quiz">
+  <img src="assets\readme-images\color-palette.png" style="background-color: multiple-colors" alt="color-palette for Simple quiz">
 </div>
 
 [Back to top](#contents)
