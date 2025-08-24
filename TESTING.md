@@ -75,7 +75,7 @@ Mobile:
 
 You can also see the full results on [Google PageSpeed Insights](https://pagespeed.web.dev/analysis/https-maryangelle-github-io-simplequiz/dox930yg5c?form_factor=desktop).
 
-- ## Responsivness test
+- ## Responsiveness test
 
 Tested manually using Chrome DevTools and Responsive Design Checker.
 
@@ -86,7 +86,7 @@ Links	Pass	Pass	Pass	Pass	Pass	Pass
 
 Summary: Layouts adapt smoothly, images scale correctly, and all links work across all devices and screen sizes.| Pass    | Pass    |
 
-- ## Browser Compatability
+- ## Browser Compatibility
 
 - Browsers tested:
 
