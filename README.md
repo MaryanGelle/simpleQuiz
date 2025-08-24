@@ -130,8 +130,6 @@ By keeping the interface uncluttered and feedback immediate, the Simple Quiz enc
 
 Below are the key features of my quiz game project, along with their purpose and value in enhancing the user experience.
 
-## Existing Features
-
 - ## Home-page
 User Welcome & Username Entry
 - Users are welcomed and prompted to enter a username. This personalizes the quiz experience and allows tracking of scores on that device.
