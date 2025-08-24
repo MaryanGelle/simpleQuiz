@@ -332,6 +332,7 @@ Design & Planning
 
 - Wireframes and mockups were created using Balsamiq, which helped visualize the layout and user interface (UI) before development began. Wireframe: https://balsamiq.com/
 - Visual assets / mockups created with Canva: https://www.canva.com/
+- Color palette was selected with the help of Canva: https://www.canva.com/
 
 Sound Effects
 
