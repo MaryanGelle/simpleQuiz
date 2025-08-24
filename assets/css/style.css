@@ -35,9 +35,9 @@ body {
   box-shadow: 0 0 10px 2px;
   margin: 30px auto;
   margin-bottom: 20px;
-  /* Add marging-bottom to create space */
+  /* Add margin-bottom to create space */
   margin-top: 20px;
-  /* Add marging-bottom to create space */
+  /* Add margin-bottom to create space */
 }
 
 .sound-control {
@@ -140,9 +140,9 @@ label {
   box-shadow: 0 0 10px 2px;
   margin: 30px auto;
   margin-bottom: 20px;
-  /* Add marging-bottom to create space */
+  /* Add margin-bottom to create space */
   margin-top: 20px;
-  /* Add marging-bottom to create space */
+  /* Add margin-bottom to create space */
 }
 
 .question-header h1 {

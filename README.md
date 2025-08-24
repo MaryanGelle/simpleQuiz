@@ -280,6 +280,7 @@ Technologies:
  - Auto Close Tag: automatically closes HTML tags
  - Live Server: preview your website in the browser with auto-refresh
  - Visual assets / mockups created with Canva
+ - Code Spell Checker (VS Code Extension): Used to review and improve spelling and grammar in this README and project documentation. [VS Code Marketplace link](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
 
 [Back to top](#contents)
@@ -351,6 +352,8 @@ Code Quality & Formatting Tools
 - HTML Validator: HTML validation: https://validator.w3.org/nu/#textarea
 
 - Prettier: automatic code formatting for better performance: https://prettier.io/
+- Code Spell Checker (VS Code Extension): https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+
 
 Performance & Accessibility
 

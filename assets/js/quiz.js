@@ -48,7 +48,7 @@ const quizdata = [
     answers: [
       { text: "Oscar Wild", isCorrect: false },
       { text: "James Austin", isCorrect: false },
-      { text: "William Shakespear", isCorrect: true },
+      { text: "William Shakespeare", isCorrect: true },
       { text: "Anna Rose", isCorrect: false },
     ],
   },
@@ -90,7 +90,7 @@ const quizdata = [
   },
 
   {
-    question: "Which disease was also known as the Great white Plauge?",
+    question: "Which disease was also known as the Great white Plague?",
     answers: [
       { text: "Leprosy ", isCorrect: false },
       { text: "Hail", isCorrect: false },
@@ -373,7 +373,7 @@ function showScore() {
   // Hide the welcome message at the end
   document.getElementById("welcome-h1").style.display = "none";
 
-  // Show "Thank you for playing!" + finalmessage
+  // Show "Thank you for playing!" + finalMessage
   questionElement.innerHTML = `Thank you for playing, ${username}!<br>${finalMessage}`;
 
   // Show the start button when the result is displayed
