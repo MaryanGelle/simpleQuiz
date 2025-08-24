@@ -6,7 +6,7 @@ Greetings from your new favorite quiz site! In addition to testing your knowledg
 
 This quiz is the ideal place to start if you want to push yourself, discover new information, or have a fun game of rivalry with loved ones. Our objective is to transform curiosity into a joyful experience by making learning rewarding and pleasurable.
 
-You can access our platform through <a href="https://maryangelle.github.io/simpleQuiz/" target="_blank" rel="noopener">General Knowledge: Simple Quiz</a>
+You can access our platform through <a href="https://maryangelle.github.io/simpleQuiz/" target="_blank" rel="noopener">Simple Quiz</a>
 
 <div align="center">
   <img src="assets\readme-images\mockupImages.jpg" style="background-color: white" alt="Quiz website mockup on mobile, desktop and Ipad">
