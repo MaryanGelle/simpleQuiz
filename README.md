@@ -177,6 +177,9 @@ Educational Purpose
   <img src="assets\readme-images\true-falseAnswer.png" style="background-color: red and green" alt="True, false answer and next button">
 </div>
 
+<div align="center">
+  <img src="assets\readme-images\quiz-endPage.png" style="background-color: blue" alt="End of the quiz message">
+</div>
 
 - ## End Page
 
@@ -205,7 +208,7 @@ Play Again & Navigation Buttons
 - Users can immediately start another round using the Play Again button or return to the home page. This encourages replay ability and keeps users engaged with the quiz.
 
 <div align="center">
-  <img src="assets\readme-images\quiz-endPage.png" style="background-color: blue" alt="End of the quiz message">
+  <img src="assets\readme-images\end-message.png" style="background-color: blue" alt="End of the quiz message">
 </div>
   
 
